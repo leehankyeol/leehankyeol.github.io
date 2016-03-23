@@ -1179,3 +1179,7 @@ blockquote footer {
 .button-disabled:focus {
   cursor: not-allowed;
   background-color: #999; }
+
+blockquote, blockquote p {
+  font-size: 0.9rem;
+  font-style: normal; }
