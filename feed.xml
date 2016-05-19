@@ -7,6 +7,23 @@
     <atom:link href="http://leehankyeol.me/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>워드프레스 개발 환경 세팅 및 AWS 인프라에 적절하게 구축하기</title>
+        <description>&lt;h3 id=&quot;httpwptaverncomwordpress-multi-environment-config-work-seamlessly-between-development-staging-and-production-sites&quot;&gt;&lt;a href=&quot;http://wptavern.com/wordpress-multi-environment-config-work-seamlessly-between-development-staging-and-production-sites&quot;&gt;다양한 환경에서 환경변수를 사용하여 개발 환경 구축하는 방안 1&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/studio24/wordpress-multi-env-config&quot;&gt;방안1에 대한 코드 예시&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;aws----httpscloudonautiowordpress-on-aws-you-are-holding-it-wrong&quot;&gt;&lt;a href=&quot;https://cloudonaut.io/wordpress-on-aws-you-are-holding-it-wrong/&quot;&gt;AWS에서 워드프레스 오토스케일링 스키마 예제&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;aws-ebs---httpsd0awsstaticcomwhitepapersdeploying-wordpress-with-aws-elastic-beanstalkpdf&quot;&gt;&lt;a href=&quot;https://d0.awsstatic.com/whitepapers/deploying-wordpress-with-aws-elastic-beanstalk.pdf&quot;&gt;AWS EBS를 통한 워드프레스 디플로이&lt;/a&gt;&lt;/h3&gt;
+</description>
+        <pubDate>Thu, 19 May 2016 00:00:00 +0900</pubDate>
+        <link>http://leehankyeol.me/code/2016/05/19/how-to-properly-develop-and-deploy-wordpress-on-aws/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/code/2016/05/19/how-to-properly-develop-and-deploy-wordpress-on-aws/</guid>
+      </item>
+    
+      <item>
         <title>이종필의 아주 특별한 상대성이론 강의, 이종필</title>
         <description>&lt;p&gt;대학교에 가서 일반 물리 강의를 들었던 사람이라면(교과 과정에 따라 다르겠지만 우리 학교의 경우에는 일반 물리 II를 들었어야 한다.) 이 책의 겉표지에 써 있는 “전 국민 아인슈타인 만들기 레알 프로젝트”라느니 “아인슈타인의 장 방정식 함께 풀어보시겠습니까?” 따위의 이야기가 얼마나 과장되고 허황된 것인지 대번에 알 수 있겠지만 일반인들이라면 – “일반”물리 강의를 듣지 않은 사람을 일반인이라고 부르는 것이 다소 어색하지만 – 일말의 기대와 희망을 품고 이 책을 집어들었을 가능성이 적지 않을 것이다. 물론 이 책은 그냥 깊은 사고 과정 없이 죽죽 읽어나가기 좋은 책이다. 하지만 이 책을 읽는다고 해서 당신이 상대성이론에 대해 더 깊이 이해하게 되는 바는 거의 1도 없을 것이다.&lt;/p&gt;
 
@@ -204,33 +221,6 @@
         <pubDate>Thu, 17 Mar 2016 00:00:00 +0900</pubDate>
         <link>http://leehankyeol.me/music/2016/03/17/stepping-stone-by-lemaitre/</link>
         <guid isPermaLink="true">http://leehankyeol.me/music/2016/03/17/stepping-stone-by-lemaitre/</guid>
-      </item>
-    
-      <item>
-        <title>와인에 대한 3가지 사실</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://medium.com/life-learning/the-3-wine-studies-that-changed-my-life-e49b60ca76de&quot;&gt;후반부로 갈수록 재미가 없는 글&lt;/a&gt;이지만 중반부까지 내용은 꽤 진부하면서도 재밌다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;와인을 즐길 줄 아는 아주 일반적인 대중을 상대로 $5짜리 와인과 $50짜리 와인을 두고 어떤 것이 비싼 와인인지 맞춰보라는 실험을 해봤단다. 레드와인의 경우 47%, 화이트와인은 53%의 정답률을 보였다. 딴에는 차이를 안다고 생각하지만 실제로는 코인 토스의 확률과 비슷하다는 말이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;또 다른 실험이 있다. 피실험자들은 $5, $10, $35, $45, $90짜리 와인을 먹는다고 알고 있지만 사실은 $5 딱지를 단 $5 와인, $10 딱지를 단 $90 와인, $35 딱지를 단 $35 와인, $45 딱지를 단 $5 와인, $90 딱지를 단 $90 와인을 먹게 되었다고 한다. 당연하게도(?!) 비싼 딱지를 단 와인을 더 즐겼다는 결과가 나왔는데 재밌는 것은 단순히 그렇게 표현만 한 것이 아니라 실제로 쾌락과 관련된 피질의 활동이 더 활발했다는 것이다. 이는 비싼 딱지 자체가 시음자들에게 분명히 다른 경험을 주었다는 것을 의미한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;글에 나오는 세 번째 연구는 이름에서부터 와인 냄새가 나는 보르도 대학의 것으로 와인 과학(wine science) 학생들을 대상으로 한 것인데 썸네일에 나온 것처럼 그냥 화이트와인과 레드와인처럼 보이는 화이트와인을 두고 향미를 묘사하라고 시킨 것이 주 내용이다. (이런 거 보면 사람들 참 못됐다.) 역시나 당연히 붉은 색 화이트와인에 대해 레드와인을 묘사할 때 사용하는 단어가 빈번히 나왔다는 것이 결과. 앞선 실험과의 차이점은 나름 이 사람들이 와인을 공부하는 사람들이라는 것이겠다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;그러니까 캐주얼하게, 특히나 집에서 와인을 즐길 사람들에게 줄 수 있는 팁은 다음과 같다. 첫째 더 좋은 맛의 와인을 찾기 위해 님이 부담을 느낄 만한 예산을 투자할 필요는 없다. 둘째 오히려 좀 더 좋은 무드를 위해 적당한 가격대의 디캔터와 조금 비싼 와인잔을 사서 바람직한 절차에 따라 먹는 것이 좋다는 것. 와인잔이 클수록 와인을 더 빠르고 많이 먹게 된다는 연구 결과가 있다고 하니 잔은 그렇게 크지 않은 것이 더 좋다고.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;굳이 본문에 리델이라는 이름이 두 번 강조된다는 점에서 이 글이 네이티브 애드는 아닌지 약 47% 정도 의심이 가기는 하지만 어찌되었든 앞으로 와인잔에 대해 생각할 때 내가 가장 먼저 떠올릴 브랜드는 리델일 것이다. 리델 와인잔은 국내에서는 개당 4-5만원선에 엔트리 레벨이 있는 것 같다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Wed, 16 Mar 2016 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/life/2016/03/16/the-3-wine-studies-that-changed-my-life/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/life/2016/03/16/the-3-wine-studies-that-changed-my-life/</guid>
       </item>
     
   </channel>

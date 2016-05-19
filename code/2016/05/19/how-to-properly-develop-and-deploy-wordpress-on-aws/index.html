@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>우리 존나 멋있는 아저씨는 되기 힘들어도 개저씨는 되지 맙시다. &#8211; 이한결 블로그</title>
+    <title>워드프레스 개발 환경 세팅 및 AWS 인프라에 적절하게 구축하기 &#8211; 이한결 블로그</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="아침부터 아주 전형적인 대한민국의 개저씨 문화를 목격하고 댓글로 한 마디 하려다가 그냥 말았다. 한 번 개저씨는 영원한 개저씨기 때문이다. 그렇다면 우리는 어떻게 해야 개저씨가 되지 않는가? 지속적이고 객관적인 자아 성찰이 필요하다. 조금이라도 경계심을 풀고 관대한 자기 평가에 안주하는 그 순간부터 우리는 개저씨가 되는 것이다.">
+    <meta name="description" content="작성 중">
     <meta name="author" content="Lee Han Kyeol">
-    <meta name="keywords" content="Life">
-    <link rel="canonical" href="http://leehankyeol.me/life/2015/09/25/dont-be-that-guy/">
+    <meta name="keywords" content="Code">
+    <link rel="canonical" href="http://leehankyeol.me/code/2016/05/19/how-to-properly-develop-and-deploy-wordpress-on-aws/">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for 이한결 블로그" href="/feed.xml" />
 
     <!-- Custom CSS -->
@@ -28,17 +28,17 @@
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="우리 존나 멋있는 아저씨는 되기 힘들어도 개저씨는 되지 맙시다.">
+    <meta property="og:title" content="워드프레스 개발 환경 세팅 및 AWS 인프라에 적절하게 구축하기">
     <meta property="og:description" content="술과 여자를 좋아합니다.">
-    <meta property="og:url" content="http://leehankyeol.me/life/2015/09/25/dont-be-that-guy/">
+    <meta property="og:url" content="http://leehankyeol.me/code/2016/05/19/how-to-properly-develop-and-deploy-wordpress-on-aws/">
     <meta property="og:site_name" content="이한결 블로그">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
     
-    <meta name="twitter:title" content="우리 존나 멋있는 아저씨는 되기 힘들어도 개저씨는 되지 맙시다." />
-    <meta name="twitter:description" content="아침부터 아주 전형적인 대한민국의 개저씨 문화를 목격하고 댓글로 한 마디 하려다가 그냥 말았다. 한 번 개저씨는 영원한 개저씨기 때문이다. 그렇다면 우리는 어떻게 해야 개저씨가 되지 않는가? 지속적이고 객관적인 자아 성찰이 필요하다. 조금이라도 경계심을 풀고 관대한 자기 평가에 안주하는 그 순간부터 우리는 개저씨가 되는 것이다." />
-    <meta name="twitter:url" content="http://leehankyeol.me/life/2015/09/25/dont-be-that-guy/" />
+    <meta name="twitter:title" content="워드프레스 개발 환경 세팅 및 AWS 인프라에 적절하게 구축하기" />
+    <meta name="twitter:description" content="작성 중" />
+    <meta name="twitter:url" content="http://leehankyeol.me/code/2016/05/19/how-to-properly-develop-and-deploy-wordpress-on-aws/" />
 
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -114,8 +114,8 @@
 
 
 <div class="post-header mb2">
-  <h1>우리 존나 멋있는 아저씨는 되기 힘들어도 개저씨는 되지 맙시다.</h1>
-  <span class="post-meta">Sep 25, 2015</span><br>
+  <h1>워드프레스 개발 환경 세팅 및 AWS 인프라에 적절하게 구축하기</h1>
+  <span class="post-meta">May 19, 2016</span><br>
   
   <span class="post-meta small">
   
@@ -125,19 +125,15 @@
 </div>
 
 <article class="post-content">
-  <p class="center-align">
-	<img src="/images/12032745_10207944957212190_1038413297440260902_o.jpg" />
-</p>
+  <h3 id="httpwptaverncomwordpress-multi-environment-config-work-seamlessly-between-development-staging-and-production-sites"><a href="http://wptavern.com/wordpress-multi-environment-config-work-seamlessly-between-development-staging-and-production-sites">다양한 환경에서 환경변수를 사용하여 개발 환경 구축하는 방안 1</a></h3>
 
-<p>아침부터 아주 전형적인 대한민국의 개저씨 문화를 목격하고 댓글로 한 마디 하려다가 그냥 말았다. 한 번 개저씨는 영원한 개저씨기 때문이다. 그렇다면 우리는 어떻게 해야 개저씨가 되지 않는가? 지속적이고 객관적인 자아 성찰이 필요하다. 조금이라도 경계심을 풀고 관대한 자기 평가에 안주하는 그 순간부터 우리는 개저씨가 되는 것이다.</p>
+<ul>
+  <li><a href="https://github.com/studio24/wordpress-multi-env-config">방안1에 대한 코드 예시</a></li>
+</ul>
 
-<p>홍상수의 «생활의 발견»의 명대사를 하나 옮겨본다.</p>
+<h3 id="aws----httpscloudonautiowordpress-on-aws-you-are-holding-it-wrong"><a href="https://cloudonaut.io/wordpress-on-aws-you-are-holding-it-wrong/">AWS에서 워드프레스 오토스케일링 스키마 예제</a></h3>
 
-<blockquote>
-  <p>“우리 사람은 되기 힘들어도 괴물은 되지 맙시다.”</p>
-</blockquote>
-
-<p>우리 존나 멋있는 아저씨는 되기 힘들어도 개저씨는 되지 맙시다.</p>
+<h3 id="aws-ebs---httpsd0awsstaticcomwhitepapersdeploying-wordpress-with-aws-elastic-beanstalkpdf"><a href="https://d0.awsstatic.com/whitepapers/deploying-wordpress-with-aws-elastic-beanstalk.pdf">AWS EBS를 통한 워드프레스 디플로이</a></h3>
 
 </article>
 
@@ -147,11 +143,11 @@
 
   <div class="share-links">
     
-      <a class = "fa fa-facebook" href="https://facebook.com/sharer.php?u=http://leehankyeol.me/life/2015/09/25/dont-be-that-guy/" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+      <a class = "fa fa-facebook" href="https://facebook.com/sharer.php?u=http://leehankyeol.me/code/2016/05/19/how-to-properly-develop-and-deploy-wordpress-on-aws/" rel="nofollow" target="_blank" title="Share on Facebook"></a>
     
 
     
-      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=우리 존나 멋있는 아저씨는 되기 힘들어도 개저씨는 되지 맙시다.&url=http://leehankyeol.me/life/2015/09/25/dont-be-that-guy/" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=워드프레스 개발 환경 세팅 및 AWS 인프라에 적절하게 구축하기&url=http://leehankyeol.me/code/2016/05/19/how-to-properly-develop-and-deploy-wordpress-on-aws/" rel="nofollow" target="_blank" title="Share on Twitter"></a>
     
 
     
@@ -195,14 +191,10 @@
     
   
     
-  
-    
-  
-    
     <div class="post ml2">
-      <a href="/life/2016/04/20/news-trust-digital-social-media/" class="post-link">
-        <h4 class="post-title">미국사람들은 페이스북보다 레딧을 더 신뢰한다</h4>
-        <p class="post-summary">미국 사람들이 페이스북에서 접하는 뉴스보다 레딧에서 접하는 뉴스를 더 신뢰한다는 기사를 레딧의 코파운더인 알렉시스 오해니언의 계정에서 보고 해당 기사의 출처를 찾아봤다. 표본집단의 성격이나 크기가 명시되어 있지 않긴 하지만 내용을 적당히 간추리면 다음과 같다.</p>
+      <a href="/code/2016/04/22/datetime-createfromformat-in-php/" class="post-link">
+        <h4 class="post-title">내가 오늘 새롭게 알게 된 사실</h4>
+        <p class="post-summary">1. 이건 결과적으로 보면 당연한 것인데도 타성에 젖어서? 또는 국뽕에 취해서? 또는 주의력이 부족해서? 여태까지 전혀 알아차리지 못하고 있었던 건데 a.m.과 p.m.은 당연히 해당 시각의 뒤에 위치해야 문법 구조상 옳다.</p>
       </a>
     </div>
     
@@ -217,11 +209,15 @@
   
     
     <div class="post ml2">
-      <a href="/life/2016/03/29/ending-march/" class="post-link">
-        <h4 class="post-title">3월을 마치며</h4>
-        <p class="post-summary">여러모로 엉망진창이었던 3월이 끝나간다. 4월은 좀 덜 잔인한 달이 되길 바라본다.</p>
+      <a href="/code/2016/03/31/opening-avengerschool/" class="post-link">
+        <h4 class="post-title">어벤져스쿨을 열며</h4>
+        <p class="post-summary">드으으으디어 이 회사에 온 지 약 8개월만에 1) 내가 처음부터 손대기 시작했고 2) 회사 이름을 달고 3) 일반 대중들에게 공개되는 서비스가 출시되었다.</p>
       </a>
     </div>
+    
+  
+    
+  
     
   
     
