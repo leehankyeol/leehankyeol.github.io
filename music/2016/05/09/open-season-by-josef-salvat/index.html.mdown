@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>I'd give a lot to have Steve's taste. &#8211; 이한결 블로그</title>
+    <title>Josef Salvat - Open Season (Une Autre Saison) &#8211; 이한결 블로그</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="쿼라에 올라온, 라이벌에게 했던 가장 영감이 되는 말에 대한 질문에서 한 때 최고로 많은 점수를 얻은 대답이었다. 꼭 스티브 잡스와 빌 게이츠 중 한 사람만 좋아하라는 법은 없지만, 바로 이런 게 내가 인간 빌 게이츠를 좋아하는 이유다.">
+    <meta name="description" content="연휴 내내 거의 100번 정도는 들었던 트랙. 무엇보다 영상이 중독적인데 그 이유는 님들이 한 번 직접 확인해보시죠.">
     <meta name="author" content="Lee Han Kyeol">
-    <meta name="keywords" content="Life">
-    <link rel="canonical" href="http://leehankyeol.me/life/2014/07/06/id-give-a-lot-to-have-steves-taste/">
+    <meta name="keywords" content="Music">
+    <link rel="canonical" href="http://leehankyeol.me/music/2016/05/09/open-season-by-josef-salvat/">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for 이한결 블로그" href="/feed.xml" />
 
     <!-- Custom CSS -->
@@ -28,17 +28,17 @@
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="I&#39;d give a lot to have Steve&#39;s taste.">
+    <meta property="og:title" content="Josef Salvat - Open Season (Une Autre Saison)">
     <meta property="og:description" content="술과 여자를 좋아합니다.">
-    <meta property="og:url" content="http://leehankyeol.me/life/2014/07/06/id-give-a-lot-to-have-steves-taste/">
+    <meta property="og:url" content="http://leehankyeol.me/music/2016/05/09/open-season-by-josef-salvat/">
     <meta property="og:site_name" content="이한결 블로그">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
     
-    <meta name="twitter:title" content="I'd give a lot to have Steve's taste." />
-    <meta name="twitter:description" content="쿼라에 올라온, 라이벌에게 했던 가장 영감이 되는 말에 대한 질문에서 한 때 최고로 많은 점수를 얻은 대답이었다. 꼭 스티브 잡스와 빌 게이츠 중 한 사람만 좋아하라는 법은 없지만, 바로 이런 게 내가 인간 빌 게이츠를 좋아하는 이유다." />
-    <meta name="twitter:url" content="http://leehankyeol.me/life/2014/07/06/id-give-a-lot-to-have-steves-taste/" />
+    <meta name="twitter:title" content="Josef Salvat - Open Season (Une Autre Saison)" />
+    <meta name="twitter:description" content="연휴 내내 거의 100번 정도는 들었던 트랙. 무엇보다 영상이 중독적인데 그 이유는 님들이 한 번 직접 확인해보시죠." />
+    <meta name="twitter:url" content="http://leehankyeol.me/music/2016/05/09/open-season-by-josef-salvat/" />
 
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -114,8 +114,8 @@
 
 
 <div class="post-header mb2">
-  <h1>I'd give a lot to have Steve's taste.</h1>
-  <span class="post-meta">Jul 6, 2014</span><br>
+  <h1>Josef Salvat - Open Season (Une Autre Saison)</h1>
+  <span class="post-meta">May 9, 2016</span><br>
   
   <span class="post-meta small">
   
@@ -125,18 +125,9 @@
 </div>
 
 <article class="post-content">
-  <blockquote>
-  <p>“I’d give a lot to have Steve’s taste.”  - Bill Gates, <a href="http://allthingsd.com/20070531/d5-gates-jobs-transcript/">at the D5 conference</a> on May 30, 2007</p>
-</blockquote>
+  <iframe width="100%" height="480" src="https://www.youtube.com/embed/X1yS8sDj9v4" frameborder="0" allowfullscreen=""></iframe>
 
-<p><a href="https://www.quora.com/What-is-the-most-inspiring-thing-one-has-said-about-his-her-opponent">쿼라에 올라온, 라이벌에게 했던 가장 영감이 되는 말에 대한 질문</a>에서 한 때 최고로 많은 점수를 얻은 대답이었다. 꼭 스티브 잡스와 빌 게이츠 중 한 사람만 좋아하라는 법은 없지만, 바로 이런 게 내가 인간 빌 게이츠를 좋아하는 이유다.</p>
-
-<p>간결하게 번역을 하고 싶었지만 원문의 느낌을 살릴 문구를 생각할 수 없었다. 몇 분 동안이나 썼다 지웠다를 반복하다가 그냥 영어 원문 그대로 올린다.</p>
-
-<p class="center-align">
-	<img src="/images/Steve_Jobs_and_Bill_Gates_(522695099).jpg" />
-	<span class="caption">http://en.wikipedia.org/wiki/Steve_Jobs</span>
-</p>
+연휴 내내 거의 100번 정도는 들었던 트랙. 무엇보다 영상이 중독적인데 그 이유는 님들이 한 번 직접 확인해보시죠.
 
 </article>
 
@@ -146,11 +137,11 @@
 
   <div class="share-links">
     
-      <a class = "fa fa-facebook" href="https://facebook.com/sharer.php?u=http://leehankyeol.me/life/2014/07/06/id-give-a-lot-to-have-steves-taste/" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+      <a class = "fa fa-facebook" href="https://facebook.com/sharer.php?u=http://leehankyeol.me/music/2016/05/09/open-season-by-josef-salvat/" rel="nofollow" target="_blank" title="Share on Facebook"></a>
     
 
     
-      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=I'd give a lot to have Steve's taste.&url=http://leehankyeol.me/life/2014/07/06/id-give-a-lot-to-have-steves-taste/" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=Josef Salvat - Open Season (Une Autre Saison)&url=http://leehankyeol.me/music/2016/05/09/open-season-by-josef-salvat/" rel="nofollow" target="_blank" title="Share on Twitter"></a>
     
 
     
@@ -194,12 +185,9 @@
     
   
     
-    <div class="post ml2">
-      <a href="/life/2016/05/11/should-the-u-s-federal-government-regulate-artificial-intelligence-to-keep-it-ethical-and-non-dangerous/" class="post-link">
-        <h4 class="post-title">연방 정부 차원에서 인공 지능을 윤리적이고 위험하지 않기 위해 규제가 필요할까요?</h4>
-        <p class="post-summary">쿼라에 올라온 질문에 답을 올린 사람은 에드 펠튼이라는 사람으로 현재 백악관에서 Deputy U.S. CTO로 - 우리말로 굳이 번역하자면 '미국 부 CTO' 정도가 되려나. 프린스턴에서 컴퓨터 사이언스와 공보(public affairs) 분야의 교수로 재직 중인 사람이니 대충 참고해서 이해해보자. - 일하는 아저씨다. 이런 일련의 프로세스를 볼 때마다 그저 감탄이 나올 뿐이다. 어디어디는 왜 이렇게 못하는 거냐의 관점이기보다는 그냥 저기는 참 잘한다는 경탄에 가까운 느낌.</p>
-      </a>
-    </div>
+  
+    
+  
     
   
     
@@ -210,15 +198,11 @@
   
     
     <div class="post ml2">
-      <a href="/life/2016/04/20/news-trust-digital-social-media/" class="post-link">
-        <h4 class="post-title">미국사람들은 페이스북보다 레딧을 더 신뢰한다</h4>
-        <p class="post-summary">미국 사람들이 페이스북에서 접하는 뉴스보다 레딧에서 접하는 뉴스를 더 신뢰한다는 기사를 레딧의 코파운더인 알렉시스 오해니언의 계정에서 보고 해당 기사의 출처를 찾아봤다. 표본집단의 성격이나 크기가 명시되어 있지 않긴 하지만 내용을 적당히 간추리면 다음과 같다.</p>
+      <a href="/music/2016/04/05/lotta-love-by-da-chick/" class="post-link">
+        <h4 class="post-title">Da Chick - Lotta Love</h4>
+        <p class="post-summary">포르투갈 리스본 출신의 아티스트 DA CHICK의 앨범을 하나 구매했다. 이 트랙을 들으면 도저히 그러지 않을 수 없을 것이다.</p>
       </a>
     </div>
-    
-  
-    
-  
     
   
     
