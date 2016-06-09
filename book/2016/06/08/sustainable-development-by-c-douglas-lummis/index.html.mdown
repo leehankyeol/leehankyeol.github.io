@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>조서, 르 클레지오 &#8211; 이한결 블로그</title>
+    <title>경제성장이 안되면 우리는 풍요롭지 못할 것인가, C. 더글러스 러미스 &#8211; 이한결 블로그</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="책에 대한 전반적인 평을 내 방식대로 간추린 흔적을 내 페이스북 포스트에 내가 직접 단 댓글에서 확인할 수 있다. &quot;내가 이 핵노잼인 책 오늘은 꼭 다 읽고 만다.&quot;">
+    <meta name="description" content="작성중">
     <meta name="author" content="Lee Han Kyeol">
     <meta name="keywords" content="Book">
-    <link rel="canonical" href="http://leehankyeol.me/book/2016/01/02/le-proces-verbal-by-le-clezio/">
+    <link rel="canonical" href="http://leehankyeol.me/book/2016/06/08/sustainable-development-by-c-douglas-lummis/">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for 이한결 블로그" href="/feed.xml" />
 
     <!-- Custom CSS -->
@@ -28,17 +28,17 @@
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="조서, 르 클레지오">
+    <meta property="og:title" content="경제성장이 안되면 우리는 풍요롭지 못할 것인가, C. 더글러스 러미스">
     <meta property="og:description" content="술과 여자를 좋아합니다.">
-    <meta property="og:url" content="http://leehankyeol.me/book/2016/01/02/le-proces-verbal-by-le-clezio/">
+    <meta property="og:url" content="http://leehankyeol.me/book/2016/06/08/sustainable-development-by-c-douglas-lummis/">
     <meta property="og:site_name" content="이한결 블로그">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
     
-    <meta name="twitter:title" content="조서, 르 클레지오" />
-    <meta name="twitter:description" content="책에 대한 전반적인 평을 내 방식대로 간추린 흔적을 내 페이스북 포스트에 내가 직접 단 댓글에서 확인할 수 있다. "내가 이 핵노잼인 책 오늘은 꼭 다 읽고 만다."" />
-    <meta name="twitter:url" content="http://leehankyeol.me/book/2016/01/02/le-proces-verbal-by-le-clezio/" />
+    <meta name="twitter:title" content="경제성장이 안되면 우리는 풍요롭지 못할 것인가, C. 더글러스 러미스" />
+    <meta name="twitter:description" content="작성중" />
+    <meta name="twitter:url" content="http://leehankyeol.me/book/2016/06/08/sustainable-development-by-c-douglas-lummis/" />
 
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -114,8 +114,8 @@
 
 
 <div class="post-header mb2">
-  <h1>조서, 르 클레지오</h1>
-  <span class="post-meta">Jan 2, 2016</span><br>
+  <h1>경제성장이 안되면 우리는 풍요롭지 못할 것인가, C. 더글러스 러미스</h1>
+  <span class="post-meta">Jun 8, 2016</span><br>
   
   <span class="post-meta small">
   
@@ -125,21 +125,11 @@
 </div>
 
 <article class="post-content">
-  <p>책에 대한 전반적인 평을 내 방식대로 간추린 흔적을 내 페이스북 포스트에 내가 직접 단 댓글에서 확인할 수 있다. “내가 이 핵노잼인 책 오늘은 꼭 다 읽고 만다.”</p>
+  > 사람들이 모여 의논을 하고, 합의를 하고, 정치에 참가하는 데에는 시간이 걸립니다. 그러한 틈이 없으면 정치는 불가능합니다. 여가에 사람은 정치 외에도 문화를 만들고, 예술을 만들고, 철학을 한다고 아리스토텔레스는 말했습니다. 정치적으로 말하면, 그러한 근무시간 이외의 시간이 있어야 비로소 사람들이 모여서 자유로운 공공영역을 만드는 것이 가능하다 – 그러한 사고방식인 것입니다.
 
-<p>어떤 예술 작품에 대해 재미가 없다는 평을 내리는 것은 민주주의 헌법으로 보장된 표현의 자유다. 하지만 그런 이야기를 남들에게 떠벌리고 다닐 수 있는지는 본인의 염치와 지적 능력이 개입된 약간은 다른 성격의 문제라고 생각하는데 제대로 이해하지도 못했으면서 재미가 없다고 이야기하는 것은 염치가 없거나 지적 능력이 떨어지거나 또는 둘 다 해당되는 경우다. 나는 염치가 그렇게 없는 편도 아니고 지적 능력이 저만큼 부족하지도 않은 사람이기 때문에 솔직히 털어놓겠다. 어렵다. 무슨 말인지 모르겠다.</p>
+> 먼 미래냐 가까운 미래냐는 알 수 없지만 언젠가 이른바 패러다임의 전환은 반드시 일어납니다. 오늘의 비상식이 상식이 되고, 오늘의 상식은 비상식이 되는, 그런 전환이 반드시 일어납니다. 일어나버리면 그처럼 어리석은 생각을 내가 어떻게 했는지, 그것이 이상하여 헛웃음이 날지도 모릅니다. 그동안 우리는 어째서 내가 사는 곳을 파괴해도 좋다는 식의 생각을 해왔단 말인가. 우리는 생명을 파괴하는 기계나 건물만 만들고 생물을 무시해왔다. 그리고 폭력을 당연시하는, 국가라는 '폭력단'을 만들었다. 어떻게 그런 식의 생각이 가능했는지 스스로도 신기한 생각이 들 날이 꼭 옵니다. 그런 식의 생각을 어째서 믿었단 말인가, 하는 게 학자의 커다란 연구테마가 되는 날이 반드시 옵니다.
 
-<blockquote>
-  <p>라 페르골라나 <하이파이>, <맘모스>에는 갔을 것 같지 않았다. 왜냐하면 토요일 저녁이면 그곳은 사람이 너무 많으니까 말이다. 그러면 <스타레오>와 <위스키>가 남는다. 소니아는 특별히 더 좋아하는 곳이 없다. 그렇지만 미셸이 만일 속물이라면 그녀는 분명 <스타레오>를 더 좋아했을 것이다. 미셸은 67퍼센트 정도 속물이다.</스타레오></위스키></스타레오></맘모스></하이파이></p>
-
-  <p>흐릿한 가짜 조명과 붉은색의 가짜 새틴 천으로 된 가짜 안락의자가 있고, 가짜 제비들이 가짜 부잣집 딸들과 춤을 추고 있는 겉만 번지르르한 그 디스코텍으로 그녀가 소니아 아마두니를 끌고 갔을 가능성이 67퍼센트이다. 다행히도 그럴 가능성을 믿으려 드는 사람은 아무도 없었다.</p>
-</blockquote>
-
-<p>소설이 어려운 이유는 절대 작가 아저씨의 독수리 타법 때문도 아님을 분명히 밝힌다. 아래는 작가의 말에서 발췌한 것이다.</p>
-
-<blockquote>
-  <p>또한 내가 몇 번 교정을 보았음에도 불구하고 내 글 속에 있을 수 있는 부적절한 표현과 오타에 대해서도 용서를 구한다(나는 내 원고를 손수 타이핑해야 했는데, 양손의 한 손가락씩밖에는 사용할 줄 몰랐다).</p>
-</blockquote>
+> 이미 말했다고 생각되지만, 이 책은 독자들에게 새로운 정보를 전달하기 위한 것은 아니다. 책에 쓰여진 것 가운데는 독자가 이미 알고 있는 것들이 많다. 그래서 이 책을 읽어도 아무것도 얻을 게 없지 않은가 – 그럴지도 모른다. 그렇지만 나의 희망은 도리어 이 책을 읽음으로써 독자가 무엇인가 잃어버렸다, 혹은 무엇인가를 뺏겨버렸다고 느끼는 것이다. 다시 말해서, 앞으로 독자가 "생각하는 대신에 상식으로 판단하는" 것이 가능해지는 것을 나는 기대하고 있다.
 
 </article>
 
@@ -149,11 +139,11 @@
 
   <div class="share-links">
     
-      <a class = "fa fa-facebook" href="https://facebook.com/sharer.php?u=http://leehankyeol.me/book/2016/01/02/le-proces-verbal-by-le-clezio/" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+      <a class = "fa fa-facebook" href="https://facebook.com/sharer.php?u=http://leehankyeol.me/book/2016/06/08/sustainable-development-by-c-douglas-lummis/" rel="nofollow" target="_blank" title="Share on Facebook"></a>
     
 
     
-      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=조서, 르 클레지오&url=http://leehankyeol.me/book/2016/01/02/le-proces-verbal-by-le-clezio/" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=경제성장이 안되면 우리는 풍요롭지 못할 것인가, C. 더글러스 러미스&url=http://leehankyeol.me/book/2016/06/08/sustainable-development-by-c-douglas-lummis/" rel="nofollow" target="_blank" title="Share on Twitter"></a>
     
 
     
@@ -204,15 +194,6 @@
     
   
     
-    <div class="post ml2">
-      <a href="/book/2016/06/08/sustainable-development-by-c-douglas-lummis/" class="post-link">
-        <h4 class="post-title">경제성장이 안되면 우리는 풍요롭지 못할 것인가, C. 더글러스 러미스</h4>
-        <p class="post-summary">작성중</p>
-      </a>
-    </div>
-    
-  
-    
   
     
   
@@ -233,6 +214,15 @@
   
     
   
+    
+  
+    
+    <div class="post ml2">
+      <a href="/book/2016/04/10/country-of-fathers-country-of-sons-by-lee-won-jae/" class="post-link">
+        <h4 class="post-title">아버지의 나라, 아들의 나라, 이원재</h4>
+        <p class="post-summary">책 소개보다는 저자 때문에 사서 본 책. 제목만 놓고 보자면 세대론 자체에 집중할 것 같은 책이지만 과거와는 달라진 사회, 경제. 정치적 상황을 가볍게 분석하고 그에 대한 개괄적인 해결책을 제시하는 내용을 담고 있다. 부제인 "오늘의 불안을 이기는 내일의 경제학"이 책의 주제를 더 잘 담아내고 있달까.</p>
+      </a>
+    </div>
     
   
 
