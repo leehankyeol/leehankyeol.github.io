@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>살인자의 기억법, 김영하 &#8211; 이한결 블로그</title>
+    <title>Josef Salvat - Open Season (Une Autre Saison) &#8211; 이한결 블로그</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="작성 중">
+    <meta name="description" content="연휴 내내 거의 100번 정도는 들었던 트랙. 무엇보다 영상이 중독적인데 그 이유는 님들이 한 번 직접 확인해보시죠.">
     <meta name="author" content="Lee Han Kyeol">
-    <meta name="keywords" content="Book">
-    <link rel="canonical" href="http://leehankyeol.me/book/2016/08/10/a-murderers-guide-to-memorization-by-kim-young-ha/">
+    <meta name="keywords" content="Music">
+    <link rel="canonical" href="http://leehankyeol.me/music/2016/05/09/open-season-by-josef-salvat/">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for 이한결 블로그" href="/feed.xml" />
 
     <!-- Custom CSS -->
@@ -28,17 +28,17 @@
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="살인자의 기억법, 김영하">
+    <meta property="og:title" content="Josef Salvat - Open Season (Une Autre Saison)">
     <meta property="og:description" content="술과 여자를 좋아합니다.">
-    <meta property="og:url" content="http://leehankyeol.me/book/2016/08/10/a-murderers-guide-to-memorization-by-kim-young-ha/">
+    <meta property="og:url" content="http://leehankyeol.me/music/2016/05/09/open-season-by-josef-salvat/">
     <meta property="og:site_name" content="이한결 블로그">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
     
-    <meta name="twitter:title" content="살인자의 기억법, 김영하" />
-    <meta name="twitter:description" content="작성 중" />
-    <meta name="twitter:url" content="http://leehankyeol.me/book/2016/08/10/a-murderers-guide-to-memorization-by-kim-young-ha/" />
+    <meta name="twitter:title" content="Josef Salvat - Open Season (Une Autre Saison)" />
+    <meta name="twitter:description" content="연휴 내내 거의 100번 정도는 들었던 트랙. 무엇보다 영상이 중독적인데 그 이유는 님들이 한 번 직접 확인해보시죠." />
+    <meta name="twitter:url" content="http://leehankyeol.me/music/2016/05/09/open-season-by-josef-salvat/" />
 
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -114,8 +114,8 @@
 
 
 <div class="post-header mb2">
-  <h1>살인자의 기억법, 김영하</h1>
-  <span class="post-meta">Aug 10, 2016</span><br>
+  <h1>Josef Salvat - Open Season (Une Autre Saison)</h1>
+  <span class="post-meta">May 9, 2016</span><br>
   
   <span class="post-meta small">
   
@@ -125,27 +125,9 @@
 </div>
 
 <article class="post-content">
-  <blockquote>
-  <p>요즘 시인들 시는 잘 모르겠다. 너무 어렵다. 그래도 이런 구절은 좋다. 적어둔다.</p>
+  <iframe width="100%" height="480" src="https://www.youtube.com/embed/X1yS8sDj9v4" frameborder="0" allowfullscreen=""></iframe>
 
-  <p>“내 고통은 자막이 없다 읽히지 않는다_김경주, <비정성시>"</비정성시></p>
-
-  <p>같은 시 중에서 또 한 구절.</p>
-
-  <p>“내가 살았던 시간은 아무도 맛본 적 없는 밀주였다/나는 그 시간의 이름으로 쉽게 취했다”</p>
-</blockquote>
-
-<blockquote>
-  <p>나는 살아오면서 남에게 험한 욕을 한 일이 없다. 술도 안 마시고 담배도 안 피우고 욕도 안 하니 자꾸 예수 믿느냐고 묻는다. 인간을 틀 몇 개로 재단하면서 평생을 사는 바보들이 있다. 편리하기는 하겠지만 좀 위험하다. 자신들의 그 앙상한 틀에 들어가지 않는 나 같은 인간은 가늠조차 못 할 테니까.</p>
-</blockquote>
-
-<blockquote>
-  <p>“서로 어떻게 알아듣고 저렇게들 대화를 하시죠?”</p>
-
-  <p>한두 번 받은 질문이 아니었는지 사회복지사는 망설임 없이 대답했다.</p>
-
-  <p>“술 취한 사람들도 자기들끼리는 즐거워하잖아요. 대화를 즐기는 데 꼭 지력이 필요한 건 아니니까요.”</p>
-</blockquote>
+연휴 내내 거의 100번 정도는 들었던 트랙. 무엇보다 영상이 중독적인데 그 이유는 님들이 한 번 직접 확인해보시죠.
 
 </article>
 
@@ -155,11 +137,11 @@
 
   <div class="share-links">
     
-      <a class = "fa fa-facebook" href="https://facebook.com/sharer.php?u=http://leehankyeol.me/book/2016/08/10/a-murderers-guide-to-memorization-by-kim-young-ha/" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+      <a class = "fa fa-facebook" href="https://facebook.com/sharer.php?u=http://leehankyeol.me/music/2016/05/09/open-season-by-josef-salvat/" rel="nofollow" target="_blank" title="Share on Facebook"></a>
     
 
     
-      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=살인자의 기억법, 김영하&url=http://leehankyeol.me/book/2016/08/10/a-murderers-guide-to-memorization-by-kim-young-ha/" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=Josef Salvat - Open Season (Une Autre Saison)&url=http://leehankyeol.me/music/2016/05/09/open-season-by-josef-salvat/" rel="nofollow" target="_blank" title="Share on Twitter"></a>
     
 
     
@@ -201,28 +183,42 @@
   <h3 class="related-post-title">Related Posts</h3>
   
     
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
+    <div class="post ml2">
+      <a href="/music/2017/01/28/automaton-by-jamiroquai/" class="post-link">
+        <h4 class="post-title">Jamiroquai - Automaton</h4>
+        <p class="post-summary">Haters gonna hate.</p>
+      </a>
+    </div>
     
   
     
   
     
     <div class="post ml2">
-      <a href="/book/2016/12/01/discovering-political-parties/" class="post-link">
-        <h4 class="post-title">정당의 발견, 박상훈</h4>
-        <p class="post-summary">서울시당에서 주최하는 정치 스터디 클럽에서 처음 교재로 삼은 책으로 간과하고 지나가기 쉬운, 민주주의 체제 하에서의 정당의 역할과 그 중요성, 과거와 현재와 미래에 대해 철저하게 정당주의자의 관점에서 개괄적으로 다뤘다. 말했듯이 내실 있는 이론서라기보다는 개론서이면서도 저자가 전달하려는 메시지가 노골적으로 담겨 있기 때문에 정당 정치에 입문하는 사람이 읽기에는 부담이 없고 좋다.</p>
+      <a href="/music/2017/01/25/no-more-interviews-by-big-sean/" class="post-link">
+        <h4 class="post-title">Big Sean - No More Interviews</h4>
+        <p class="post-summary">나는 힙합을 - 또는 이 포스트의 맥락을 고려하면 랩이라고 표현하는 게 더 옳을지도 모를 - 그렇게 좋아하지도 않고 따라서 그렇게 잘 알지 못한다. 외국(사실상 미국) 힙합은 내가 20대 중후반에 와서야 듣기 시작한 제이 지와 카니예를 시작으로 최근에 와서야 드레이크니, 켄드릭 라마니 하는 디스코그래피에 귀를 열기 시작했고 우리나라 힙합은 노래방에서 떼창하는 것들 말고는 도저히 들을 마음도 없고 그럴 자신도 없는 수준이다. 따라서 아래로 이어지는 이야기는 전부가 미국 힙합, 또는 랩 이야기다.</p>
       </a>
     </div>
+    
+  
+    
+  
+    
+    <div class="post ml2">
+      <a href="/music/2016/12/26/christmas-eve/" class="post-link">
+        <h4 class="post-title">올해 크리스마스 이브의 술자리</h4>
+        <p class="post-summary">굿모닝달리라는 5인조 밴드에는 정지영이라는 사람이 있다. 나와 그는 고등학교 동문으로 별악이라는 밴드 동아리를 같이 해서 알게 된 사이다. 그가 이브에 에반스 라운지에서 공연을 한다고 하여 마땅히 할 것도 없던 나는 거기에 가기로 했다.</p>
+      </a>
+    </div>
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     

@@ -3,8 +3,25 @@
   <channel>
     <title>이한결 블로그</title>
     <description>술과 여자를 좋아합니다.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://leehankyeol.me/</link>
+    <atom:link href="http://leehankyeol.me/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Jamiroquai - Automaton</title>
+        <description>&lt;p&gt;자미로콰이가 2010년 이후 7년만에 정규 앨범 발매 계획을 발표했다.&lt;/p&gt;
+
+&lt;p&gt;제일 먼저 공개된 오토마톤의 뮤직비디오를 보고는 깊은 곳에서부터 벅차게 차오르는 감동을 느끼지 않을 수 없었다. 자미로콰이를 이끄는 제이 케이는 69년생으로 지천명의 나이를 목전에 둔 아티스트다. 제이 케이의 오랜 아이덴티티였던 버팔로 맨의 모습, 전반적으로 과거의 자미로콰이 트랙보다 더 전자적으로 진화한 분위기, 포스트 아포칼립틱한 뮤직 비디오의 테마가 오토마톤이라는 단일한 컨셉으로 수렴할 뿐만 아니라 2001년 훵크 오딧세이 앨범 뒤로 정착된 자미로콰이 특유의 훵크와 디스코, 전자음악이 혼합된 그 “자미로콰이” 느낌을 전혀 잃지 않았다.&lt;/p&gt;
+
+&lt;p&gt;물론 나는 제이 케이와 자미로콰이 ‘빠’다. 내가 ‘빠’를 자처한다는 것은 사실상 맹목적으로 응원하고 지지하는 대상이라는 말이긴 하지만 아니 이것은 누가 들어도 개짱짱이 아닌가? 서재페의 그 날이 빨리 오면 좋겠다. 그 날이 오면, 그 날이 오면은…&lt;/p&gt;
+
+&lt;p&gt;Haters gonna hate.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/rmlmOk4ubcU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sat, 28 Jan 2017 00:00:00 +0900</pubDate>
+        <link>http://leehankyeol.me/music/2017/01/28/automaton-by-jamiroquai/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/music/2017/01/28/automaton-by-jamiroquai/</guid>
+      </item>
     
       <item>
         <title>미안하지만, 너는 평등하지 않다</title>
@@ -12,7 +29,7 @@
 
 &lt;p&gt;글을 읽으며 지난 토요일에 별로 볼 것도 없었던 르누아르 전에 가느니 강남역 행진에나 참석할 걸하는 아쉬움이 든다. 마땅히 버릴 부분없이 깔끔한 글이다.&lt;/p&gt;
 
-&lt;h2 id=&quot;미안하지만-너는-평등하지-않다&quot;&gt;&lt;a href=&quot;https://medium.com/@dinachka82/about-your-poem-1f26a7585a6f&quot;&gt;미안하지만, 너는 평등하지 않다&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;httpsmediumcomdinachka82about-your-poem-1f26a7585a6f&quot;&gt;&lt;a href=&quot;https://medium.com/@dinachka82/about-your-poem-1f26a7585a6f&quot;&gt;미안하지만, 너는 평등하지 않다&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;2017년 1월 21일 토요일에 열린 세계여성공동행진(이하 행진)에 대한 반응으로 소셜 미디어에 돌아다니는 글이 있다. 그 글의 도입부는 다음과 같다.
 “내가 행진에 대해 지지하지 않는다고 해서 여성의 명예를 손상시키는 것은 아니다. 내가 여성이라는 이유로 2류 시민(second class citizen)으로 살아간다고 느끼지도 않는다.”
@@ -83,8 +100,8 @@
 &lt;p&gt;디나 레이거만, 2017&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Jan 2017 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/life/2017/01/25/you-are-not-equal-im-sorry/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2017/01/25/you-are-not-equal-im-sorry/</guid>
+        <link>http://leehankyeol.me/life/2017/01/25/you-are-not-equal-im-sorry/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/life/2017/01/25/you-are-not-equal-im-sorry/</guid>
       </item>
     
       <item>
@@ -110,8 +127,8 @@
 &lt;iframe width=&quot;100%&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/rziNFtijGRQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Wed, 25 Jan 2017 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/music/2017/01/25/no-more-interviews-by-big-sean/</link>
-        <guid isPermaLink="true">http://localhost:4000/music/2017/01/25/no-more-interviews-by-big-sean/</guid>
+        <link>http://leehankyeol.me/music/2017/01/25/no-more-interviews-by-big-sean/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/music/2017/01/25/no-more-interviews-by-big-sean/</guid>
       </item>
     
       <item>
@@ -129,8 +146,8 @@
 &lt;p&gt;는 혹시 CGV 강남에서 감상에 크게 방해가 되는 사람들 만나보신 분들의 경험담을 모아봅니다. 영화를 본 관객이 서로 다른 관객을 평가하는 제도를 도입해 관객 블랙리스트를 만드는 VOC를 내볼까…는 어차피 가능성이 없는 이야기겠지만서도… 여튼 내가 이러려고 돈 내고 영화보러 갔나 자괴감 들고 괴로운 사람의 신세한탄이었습니다. 읽어주셔서 고마워.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Jan 2017 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/life/2017/01/17/kimino-namaewa/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2017/01/17/kimino-namaewa/</guid>
+        <link>http://leehankyeol.me/life/2017/01/17/kimino-namaewa/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/life/2017/01/17/kimino-namaewa/</guid>
       </item>
     
       <item>
@@ -157,8 +174,8 @@
 &lt;iframe width=&quot;100%&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/06TjHBcJ7kA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Mon, 26 Dec 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/music/2016/12/26/christmas-eve/</link>
-        <guid isPermaLink="true">http://localhost:4000/music/2016/12/26/christmas-eve/</guid>
+        <link>http://leehankyeol.me/music/2016/12/26/christmas-eve/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/music/2016/12/26/christmas-eve/</guid>
       </item>
     
       <item>
@@ -174,8 +191,8 @@
 &lt;p&gt;놀라운 것은, 그는 내게 부탁도 하지 않았고, 뭔가 당황하는 기색도 없이, 비데의 세정 기능을 사용하고는 그대로 옷을 매만지더니 그냥 그 자리를 떠났다는 것이다. 그 날 화장실에 남은 건 도저히 작금의 사태를 이해할 수 없는 한 사람의 빡빡이와 알 수 없는 자가 남기고 간 비데 위의 온기뿐이었다.&lt;/p&gt;
 </description>
         <pubDate>Thu, 22 Dec 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/life/2016/12/22/a-story-on-bidet/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2016/12/22/a-story-on-bidet/</guid>
+        <link>http://leehankyeol.me/life/2016/12/22/a-story-on-bidet/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/life/2016/12/22/a-story-on-bidet/</guid>
       </item>
     
       <item>
@@ -185,11 +202,10 @@
 &lt;p&gt;한국 시간으로 11월 12일 정오 전에 출발해 11월 20일 오후 6시 무렵 돌아오는 일정이었다. 숙박은 관대한 친구 Y의 도움에 힘입어 따로 숙박 업소를 예약하지 않고 뉴욕에서 머무는 7박 내내 Y의 집에 신세를 지기로 했다. (뉴욕의 무시무시한 숙박료와 다른 여러 가지 불편함을 고려할 때 어마어마한 조건이 아닐 수 없는 것이다.) 계획은 거의 아무런 것도 짜가지 않았다. 어렴풋이 가볼까 했던 UFC 205는 뉴욕에서 열리는 첫 대회인 만큼 주최측에서 무척이나 거대한 대진 카드를 들고 나와서 매디슨 스퀘어 가든에서 가장 조악한 뷰를 자랑하는 자리에 앉더라도 최소 $750 이상을 내야 한다는 것을 깨닫고는 곧바로 마음을 접어버렸기 때문이다. 그냥 적당히 시간이 되면 뉴욕 자이언츠의 경기나, 뉴욕 닉스의 경기 정도를 관람하고, 또 시간이 되면 콘서트나 한 번 가보자, 그리고 아직 어딘지는 정하지 않았지만 미술관들을 좀 돌아보고 하자, 정도가 뉴욕으로 떠나는 아시아나 A380에 몸을 실었을 때까지 가지고 있던 생각의 전부였다.&lt;/p&gt;
 
 &lt;p&gt;출발 전날이었던 금요일에는 오후 반차를 쓰고 사당 자취방에서 짐을 싼 뒤 저녁에 연희동으로 갔다. 집에서 남은 짐을 더 챙기고 글렌리벳 15년산을 홀짝홀짝 먹고 잠을 청했다.&lt;/p&gt;
-
 </description>
         <pubDate>Sun, 11 Dec 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/travel/2016/12/11/new-york-0-prologue/</link>
-        <guid isPermaLink="true">http://localhost:4000/travel/2016/12/11/new-york-0-prologue/</guid>
+        <link>http://leehankyeol.me/travel/2016/12/11/new-york-0-prologue/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/travel/2016/12/11/new-york-0-prologue/</guid>
       </item>
     
       <item>
@@ -264,8 +280,37 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 04 Dec 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/life/2016/12/04/what-is-it-completely-impossible-to-look-cool-doing-it/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2016/12/04/what-is-it-completely-impossible-to-look-cool-doing-it/</guid>
+        <link>http://leehankyeol.me/life/2016/12/04/what-is-it-completely-impossible-to-look-cool-doing-it/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/life/2016/12/04/what-is-it-completely-impossible-to-look-cool-doing-it/</guid>
+      </item>
+    
+      <item>
+        <title>정당의 발견, 박상훈</title>
+        <description>&lt;p&gt;서울시당에서 주최하는 정치 스터디 클럽에서 처음 교재로 삼은 책으로 간과하고 지나가기 쉬운, 민주주의 체제 하에서의 정당의 역할과 그 중요성, 과거와 현재와 미래에 대해 철저하게 정당주의자의 관점에서 개괄적으로 다뤘다. 말했듯이 내실 있는 이론서라기보다는 개론서이면서도 저자가 전달하려는 메시지가 노골적으로 담겨 있기 때문에 정당 정치에 입문하는 사람이 읽기에는 부담이 없고 좋다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;정치에서 정당들은 시민이 현명한 판단을 할 수 있도록 정보 비용을 최적화해 주는 역할을 한다. (앤서니 다운스가 멋지게 설명했듯이) 정당들은 무엇이 옳은지를 판단할 수 없는 상황에서 갖게 마련인 확신의 딜레마를 해결해 주는 합리적 지름길을 제시해 준다. 이를 통해 시민들은 과도한 정보비용을 줄일 수 있다. 정당들이 적절한 정보 처리 과정을 조직화해 주지 않아서 시민 스스로 상황과 대안을 따져 보고 분석해서 판단해야 한다면 당연히 시간과 정보 능력, 지식 능력이 큰 계층에게 유리한 결과를 낳을 수밖에 없다. 결국 정당정치의 역할이 없다면 정보처리 능력을 돈으로 구매할 수 있는 상층과 교육받은 중산층 편향적인 결과를 피하기 어렵다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;갈등은 없애거나 극복될 수 없다. 단지 줄이고 완화하고 절약할 수 있을 뿐이다. 오히려 갈등을 공존 가능한 ‘이견’으로 다루게 될 때 민주주의의 내용은 풍부해진다. ‘집단 이기주의’라는 말도 부정적으로 사용되는데, 이 또한 불합리한 일이다. 공동의 이익을 추구하기 위해 집단을 만드는 것인데, 그걸 이기적이라고 몰아붙이면 기성 질서의 수혜자들만 살아남는 사회가 될 수밖에 없다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;누구든 정치단체를 만들고 공직 후보를 출마시키면 정당이 되는 것이며, 달리 더 필요한 게 없기 때문이다. ‘아니, 그렇게 자기들 맘대로 해도 되나?’ 아마 지금의 정당법을 지키려는 우리의 법률가라면, 특히 헌법 재판관들이라면, 그렇게 물을지 모르겠다. 그들을 실망시키겠지만, 그렇게 시민들 맘대로 하면 된다. 조직적 사익을 추구해도 되고, 공천을 민주적으로 하든 말든 그들 스스로 알아서 하면 된다. 다만 그들이 선거에서 표를 얻고 당선되고 당의 세를 늘려 공적 결정에 영향을 미치게 될지는 동료 시민들이 결정한다. 이 모든 것이 시민들의 권리이고, 이것이 정당이고 민주주의다. 뭐가 더 필요한가?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;무엇보다도 현대 민주주의가 자본주의에 기초를 두고 있기 때문이다. 초기 국가 형성 과정에서 중심-주변의 갈등, 종교적 갈등, 도-농 갈등은 시간이 지남에 따라 어느 정도 해소 내지 완화된 반면, 자본주의 경제체제가 만들어 내는 갈등과 균열은 점점 더 사회 구성원들의 삶에 큰 영향을 미쳤다. (중략) 정당정치가 지속되는 한 가장 강력한 분화는 빈부 격차의 문제를 둘러싼 보수정당과 진보 정당 사이의 갈등일 것이고, 이는 우리의 경험에서도 분명하다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;첫째는 진보 정당의 경쟁력(득표율과 집권 기회를 기준으로 볼 때)이 강한 나라일수록, 둘째는 노동조합의 조직률과 교섭 능력이 강한 나라일수록 통계적 가능성이 높다는 것이다. 이를 논리적으로 풀어 말한다면 다음과 같이 될 것이다. 이념적, 계층적 범위가 충분히 넓은 사회일수록 그 사회를 구성하는 다양한 집단들의 관심과 이익이 평등하게 고려될 수 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 01 Dec 2016 00:00:00 +0900</pubDate>
+        <link>http://leehankyeol.me/book/2016/12/01/discovering-political-parties/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/book/2016/12/01/discovering-political-parties/</guid>
       </item>
     
       <item>
@@ -282,58 +327,8 @@
 &lt;/p&gt;
 </description>
         <pubDate>Mon, 28 Nov 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/life/2016/11/28/things-that-make-you-a-better-musician/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2016/11/28/things-that-make-you-a-better-musician/</guid>
-      </item>
-    
-      <item>
-        <title>국제 입양의 트라우마</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://www.slate.com/articles/double_x/doublex/2016/11/adam_crapser_and_the_traumas_of_international_adoption.html&quot;&gt;슬레이트에서 한국인 이름이 보이길래&lt;/a&gt; 쓱쓱 읽어보다가 정리한 내용. 바라건대, 사회가 제도권밖의 사람들을 최소한, 정말이지 최소한으로나마 보호해주면 좋겠다는 생각이다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;올해 41세인 신송혁 씨(미국 이름 애덤 크랩서 Adam Crapser)는 부인과 아이, 그리고 모든 지인들을 미국에 둔 채 모국인 한국으로 강제 추방당했다. 신송혁씨는 3살때 본인의 여자 형제(sister)와 함께 미국으로 국제 입양된 사람이다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;신 씨의 첫 번째 입양 가족은 신 씨 남매를 학대했고 신 씨가 9살이 되던 해에 신 씨만 따로 또 다른 양부모 가정에 의탁했다. 그러나 결국 오리건까지 가게 된 신 씨를 기다리던 것은 또 다른 학대였고 16살에는 집에서 쫓겨나는 신세가 되었다. 한국에서부터 가져온 본인의 물건을 챙기러 몰래 집에 침입한 신 씨는 경찰에 잡혀 감옥살이를 했다. 이후 여러 가지 범죄 행위에 빠지지만 마침내 자신의 모든 형기를 마치고 결혼도 하고 직업도 얻게 되었다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;하지만 신 씨를 기다리던 것은 강제추방 명령이었다. 2001년 전에 이루어진 국제 입양의 경우 입양된 아이에게 자동적으로 미국 시민권이 부여되지 않았는데 나중에 소급적으로 적용된 법마저 신 씨의 출생일 조건에 맞지 않았다. 입양 가족에서 챙겨줬어야 하는 마땅한 권리를 받지 못한 신 씨는 범죄 기록을 바탕으로 강제추방을 당하게 된 것이다. 한 캠페인에 따르면 신 씨와 같이 예전에 국제 입양된 뒤 시민권을 따지 못한 사람이 35,000여 명에 이른다고 한다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;이 일에는 최소 3대에 걸친 트라우마가 깔려 있다. 1978년에 남편의 폭력과 가난을 이기지 못해 신 씨를 비롯한 본인의 세 자식을 고아원에 맡긴 뒤 신 씨의 어머니는 날씨가 좋지 않을 때마다 그들 생각에 빠졌다고 한다. 국제 입양 되어 온 신 씨는 어린 시절 두 입양 가족에게 모두 학대를 받았고 결국 어지러운 젊은 시절을 보내다 결국 강제추방을 당하게 되었다. 신 씨의 가족, 특히나 신 씨의 아이는 신 씨가 감옥에서 보낸 시간, 이민국과 보낸 시간들로 아버지를 잃었는데 이제는 아예 영구적으로 가정의 중요한 구성원을 잃게 될 수도 있게 되었다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;본인 역시 입양 가족의 어머니임을 밝히는 글쓴이는 입양 이전에 입양 가정의 사람들, 특히 부모들에게 필요한 교육의 중요성을 강조한다. 신 씨의 경우에서는 단순히 신 씨가 겪었던 입양 가정 부모들의 잘못뿐만 아니라 그런 가정에 입양을 허가해준 관리 당국의 잘못도 지적한다. 신 씨의 범죄 이력을 문제 삼는 입장에 대해서도 입양된 아이들이 근본적으로 가지고 있는 여러 트라우마들을 돌볼 수 있는 정책의 필요성을 역설하면서 글을 마친다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Thu, 24 Nov 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/life/2016/11/24/adam-crapser-and-the-traumas-of-international-adoption/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2016/11/24/adam-crapser-and-the-traumas-of-international-adoption/</guid>
-      </item>
-    
-      <item>
-        <title>한국 현대사 산책 1950년대편 3권, 강준만</title>
-        <description>&lt;p&gt;뉴욕에서 이동하는 동안 심심하면 읽어보라고 친구 Y가 던져준 책인데 솔찬히 재밌게 잘 읽힌다. 여담이지만 혼자 뉴욕 여행하는 사람들에게 책 한 권 정도는 가지고 다니는 걸 강려크하게 추천한다.&lt;/p&gt;
-
-&lt;p&gt;발췌한 부분들은 딱히 인상이 깊어서라기보다 예나 지금이나 여전하구나 싶은 것들로서 역시 인간의 욕심은 끝이 없고 같은 실수를 반복하는 것이 인생의 참된 진리라는 것을 다시금 깨닫는다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“내 단언하지만 민주당 그 완고한 사람들한테 정권을 맡기면 요새보다 더하면 더했지 조금도 덜할 사람들이 아니란 말씀입니다. 여러분! 민주당의 경제정책을 보세요. 자본가들 잘 살고 권력있는 사람이나 잘 살게 되어 있어요. 가난하고 힘이 없는 사람들은 꼭 마찬가지로 못살게 된다 이 말씀이에요.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“대통령과의 기자회견에 앞서 우리는 대통령의 비서들에게 우리의 질문 사항을 미리 제출해야 했다. 우리는 그들 비서들이 승인한 항목에 대해서만 대통령에게 질문할 수 있었다. 언젠가 한 기자가 질문 항목에서 지워진 질문 중의 하나를 대통령에게 물어본 일이 있었다. 그 기자는 얼마 후 모종의 혐의로 체포되었으며 신문사에서도 해고되었다.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;경향신문은 정부의 결정이 부당하다는 판단 아래 정부측을 상대로 발행허가 취소처분에 대한 ‘효력정지가처분신청’을 냈다. 6월 26일 서울고법 특별1부 재판장 홍일원은 용감하게도 경향신문에 승소 결정을 내렸다. 자유당 정권은 홍일원에 대한 보복에 들어갔다. 그의 동생과 처가 식구 등 친인척들이 하던 회사와 공장에 세무서원들이 들이닥쳐 장부를 모두 압수해가고 대대적인 세무사찰이 시작되었다.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 17 Nov 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/book/2016/11/17/korean-modern-history-by-kang-joon-man/</link>
-        <guid isPermaLink="true">http://localhost:4000/book/2016/11/17/korean-modern-history-by-kang-joon-man/</guid>
+        <link>http://leehankyeol.me/life/2016/11/28/things-that-make-you-a-better-musician/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/life/2016/11/28/things-that-make-you-a-better-musician/</guid>
       </item>
     
   </channel>
