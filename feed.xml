@@ -3,8 +3,21 @@
   <channel>
     <title>이한결 블로그</title>
     <description>술과 여자를 좋아합니다.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://leehankyeol.me/</link>
+    <atom:link href="http://leehankyeol.me/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Smino - blkjuptr</title>
+        <description>&lt;p&gt;두말할 것 없이 죽여주는 아티스트를 발견했다.&lt;/p&gt;
+
+&lt;p&gt;혼자서만 들으려다가 선심 써서 공유해주는 것이니 감사히 듣도록…&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/aJF9ro9UB0w&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Fri, 10 Feb 2017 00:00:00 +0900</pubDate>
+        <link>http://leehankyeol.me/music/2017/02/10/blkjuptr-by-smino/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/music/2017/02/10/blkjuptr-by-smino/</guid>
+      </item>
     
       <item>
         <title>콜레라 시대의 사랑 1, 가르시아 마르케스</title>
@@ -23,8 +36,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sun, 05 Feb 2017 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/book/2017/02/05/el-amor-en-los-tiempos-del-colera1-by-garica-marquez/</link>
-        <guid isPermaLink="true">http://localhost:4000/book/2017/02/05/el-amor-en-los-tiempos-del-colera1-by-garica-marquez/</guid>
+        <link>http://leehankyeol.me/book/2017/02/05/el-amor-en-los-tiempos-del-colera1-by-garica-marquez/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/book/2017/02/05/el-amor-en-los-tiempos-del-colera1-by-garica-marquez/</guid>
       </item>
     
       <item>
@@ -40,8 +53,8 @@
 &lt;iframe width=&quot;100%&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/rmlmOk4ubcU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Sat, 28 Jan 2017 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/music/2017/01/28/automaton-by-jamiroquai/</link>
-        <guid isPermaLink="true">http://localhost:4000/music/2017/01/28/automaton-by-jamiroquai/</guid>
+        <link>http://leehankyeol.me/music/2017/01/28/automaton-by-jamiroquai/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/music/2017/01/28/automaton-by-jamiroquai/</guid>
       </item>
     
       <item>
@@ -50,7 +63,7 @@
 
 &lt;p&gt;글을 읽으며 지난 토요일에 별로 볼 것도 없었던 르누아르 전에 가느니 강남역 행진에나 참석할 걸하는 아쉬움이 든다. 마땅히 버릴 부분없이 깔끔한 글이다.&lt;/p&gt;
 
-&lt;h2 id=&quot;미안하지만-너는-평등하지-않다&quot;&gt;&lt;a href=&quot;https://medium.com/@dinachka82/about-your-poem-1f26a7585a6f&quot;&gt;미안하지만, 너는 평등하지 않다&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;httpsmediumcomdinachka82about-your-poem-1f26a7585a6f&quot;&gt;&lt;a href=&quot;https://medium.com/@dinachka82/about-your-poem-1f26a7585a6f&quot;&gt;미안하지만, 너는 평등하지 않다&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;2017년 1월 21일 토요일에 열린 세계여성공동행진(이하 행진)에 대한 반응으로 소셜 미디어에 돌아다니는 글이 있다. 그 글의 도입부는 다음과 같다.
 “내가 행진에 대해 지지하지 않는다고 해서 여성의 명예를 손상시키는 것은 아니다. 내가 여성이라는 이유로 2류 시민(second class citizen)으로 살아간다고 느끼지도 않는다.”
@@ -121,8 +134,8 @@
 &lt;p&gt;디나 레이거만, 2017&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Jan 2017 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/life/2017/01/25/you-are-not-equal-im-sorry/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2017/01/25/you-are-not-equal-im-sorry/</guid>
+        <link>http://leehankyeol.me/life/2017/01/25/you-are-not-equal-im-sorry/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/life/2017/01/25/you-are-not-equal-im-sorry/</guid>
       </item>
     
       <item>
@@ -148,8 +161,8 @@
 &lt;iframe width=&quot;100%&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/rziNFtijGRQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Wed, 25 Jan 2017 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/music/2017/01/25/no-more-interviews-by-big-sean/</link>
-        <guid isPermaLink="true">http://localhost:4000/music/2017/01/25/no-more-interviews-by-big-sean/</guid>
+        <link>http://leehankyeol.me/music/2017/01/25/no-more-interviews-by-big-sean/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/music/2017/01/25/no-more-interviews-by-big-sean/</guid>
       </item>
     
       <item>
@@ -167,8 +180,8 @@
 &lt;p&gt;는 혹시 CGV 강남에서 감상에 크게 방해가 되는 사람들 만나보신 분들의 경험담을 모아봅니다. 영화를 본 관객이 서로 다른 관객을 평가하는 제도를 도입해 관객 블랙리스트를 만드는 VOC를 내볼까…는 어차피 가능성이 없는 이야기겠지만서도… 여튼 내가 이러려고 돈 내고 영화보러 갔나 자괴감 들고 괴로운 사람의 신세한탄이었습니다. 읽어주셔서 고마워.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Jan 2017 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/life/2017/01/17/kimino-namaewa/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2017/01/17/kimino-namaewa/</guid>
+        <link>http://leehankyeol.me/life/2017/01/17/kimino-namaewa/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/life/2017/01/17/kimino-namaewa/</guid>
       </item>
     
       <item>
@@ -195,8 +208,8 @@
 &lt;iframe width=&quot;100%&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/06TjHBcJ7kA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Mon, 26 Dec 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/music/2016/12/26/christmas-eve/</link>
-        <guid isPermaLink="true">http://localhost:4000/music/2016/12/26/christmas-eve/</guid>
+        <link>http://leehankyeol.me/music/2016/12/26/christmas-eve/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/music/2016/12/26/christmas-eve/</guid>
       </item>
     
       <item>
@@ -212,8 +225,8 @@
 &lt;p&gt;놀라운 것은, 그는 내게 부탁도 하지 않았고, 뭔가 당황하는 기색도 없이, 비데의 세정 기능을 사용하고는 그대로 옷을 매만지더니 그냥 그 자리를 떠났다는 것이다. 그 날 화장실에 남은 건 도저히 작금의 사태를 이해할 수 없는 한 사람의 빡빡이와 알 수 없는 자가 남기고 간 비데 위의 온기뿐이었다.&lt;/p&gt;
 </description>
         <pubDate>Thu, 22 Dec 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/life/2016/12/22/a-story-on-bidet/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2016/12/22/a-story-on-bidet/</guid>
+        <link>http://leehankyeol.me/life/2016/12/22/a-story-on-bidet/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/life/2016/12/22/a-story-on-bidet/</guid>
       </item>
     
       <item>
@@ -225,8 +238,8 @@
 &lt;p&gt;출발 전날이었던 금요일에는 오후 반차를 쓰고 사당 자취방에서 짐을 싼 뒤 저녁에 연희동으로 갔다. 집에서 남은 짐을 더 챙기고 글렌리벳 15년산을 홀짝홀짝 먹고 잠을 청했다.&lt;/p&gt;
 </description>
         <pubDate>Sun, 11 Dec 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/travel/2016/12/11/new-york-0-prologue/</link>
-        <guid isPermaLink="true">http://localhost:4000/travel/2016/12/11/new-york-0-prologue/</guid>
+        <link>http://leehankyeol.me/travel/2016/12/11/new-york-0-prologue/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/travel/2016/12/11/new-york-0-prologue/</guid>
       </item>
     
       <item>
@@ -301,37 +314,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 04 Dec 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/life/2016/12/04/what-is-it-completely-impossible-to-look-cool-doing-it/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2016/12/04/what-is-it-completely-impossible-to-look-cool-doing-it/</guid>
-      </item>
-    
-      <item>
-        <title>정당의 발견, 박상훈</title>
-        <description>&lt;p&gt;서울시당에서 주최하는 정치 스터디 클럽에서 처음 교재로 삼은 책으로 간과하고 지나가기 쉬운, 민주주의 체제 하에서의 정당의 역할과 그 중요성, 과거와 현재와 미래에 대해 철저하게 정당주의자의 관점에서 개괄적으로 다뤘다. 말했듯이 내실 있는 이론서라기보다는 개론서이면서도 저자가 전달하려는 메시지가 노골적으로 담겨 있기 때문에 정당 정치에 입문하는 사람이 읽기에는 부담이 없고 좋다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;정치에서 정당들은 시민이 현명한 판단을 할 수 있도록 정보 비용을 최적화해 주는 역할을 한다. (앤서니 다운스가 멋지게 설명했듯이) 정당들은 무엇이 옳은지를 판단할 수 없는 상황에서 갖게 마련인 확신의 딜레마를 해결해 주는 합리적 지름길을 제시해 준다. 이를 통해 시민들은 과도한 정보비용을 줄일 수 있다. 정당들이 적절한 정보 처리 과정을 조직화해 주지 않아서 시민 스스로 상황과 대안을 따져 보고 분석해서 판단해야 한다면 당연히 시간과 정보 능력, 지식 능력이 큰 계층에게 유리한 결과를 낳을 수밖에 없다. 결국 정당정치의 역할이 없다면 정보처리 능력을 돈으로 구매할 수 있는 상층과 교육받은 중산층 편향적인 결과를 피하기 어렵다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;갈등은 없애거나 극복될 수 없다. 단지 줄이고 완화하고 절약할 수 있을 뿐이다. 오히려 갈등을 공존 가능한 ‘이견’으로 다루게 될 때 민주주의의 내용은 풍부해진다. ‘집단 이기주의’라는 말도 부정적으로 사용되는데, 이 또한 불합리한 일이다. 공동의 이익을 추구하기 위해 집단을 만드는 것인데, 그걸 이기적이라고 몰아붙이면 기성 질서의 수혜자들만 살아남는 사회가 될 수밖에 없다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;누구든 정치단체를 만들고 공직 후보를 출마시키면 정당이 되는 것이며, 달리 더 필요한 게 없기 때문이다. ‘아니, 그렇게 자기들 맘대로 해도 되나?’ 아마 지금의 정당법을 지키려는 우리의 법률가라면, 특히 헌법 재판관들이라면, 그렇게 물을지 모르겠다. 그들을 실망시키겠지만, 그렇게 시민들 맘대로 하면 된다. 조직적 사익을 추구해도 되고, 공천을 민주적으로 하든 말든 그들 스스로 알아서 하면 된다. 다만 그들이 선거에서 표를 얻고 당선되고 당의 세를 늘려 공적 결정에 영향을 미치게 될지는 동료 시민들이 결정한다. 이 모든 것이 시민들의 권리이고, 이것이 정당이고 민주주의다. 뭐가 더 필요한가?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;무엇보다도 현대 민주주의가 자본주의에 기초를 두고 있기 때문이다. 초기 국가 형성 과정에서 중심-주변의 갈등, 종교적 갈등, 도-농 갈등은 시간이 지남에 따라 어느 정도 해소 내지 완화된 반면, 자본주의 경제체제가 만들어 내는 갈등과 균열은 점점 더 사회 구성원들의 삶에 큰 영향을 미쳤다. (중략) 정당정치가 지속되는 한 가장 강력한 분화는 빈부 격차의 문제를 둘러싼 보수정당과 진보 정당 사이의 갈등일 것이고, 이는 우리의 경험에서도 분명하다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;첫째는 진보 정당의 경쟁력(득표율과 집권 기회를 기준으로 볼 때)이 강한 나라일수록, 둘째는 노동조합의 조직률과 교섭 능력이 강한 나라일수록 통계적 가능성이 높다는 것이다. 이를 논리적으로 풀어 말한다면 다음과 같이 될 것이다. 이념적, 계층적 범위가 충분히 넓은 사회일수록 그 사회를 구성하는 다양한 집단들의 관심과 이익이 평등하게 고려될 수 있다.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 01 Dec 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/book/2016/12/01/discovering-political-parties/</link>
-        <guid isPermaLink="true">http://localhost:4000/book/2016/12/01/discovering-political-parties/</guid>
+        <link>http://leehankyeol.me/life/2016/12/04/what-is-it-completely-impossible-to-look-cool-doing-it/</link>
+        <guid isPermaLink="true">http://leehankyeol.me/life/2016/12/04/what-is-it-completely-impossible-to-look-cool-doing-it/</guid>
       </item>
     
   </channel>
