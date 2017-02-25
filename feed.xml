@@ -3,8 +3,58 @@
   <channel>
     <title>이한결 블로그</title>
     <description>술과 여자를 좋아합니다.</description>
-    <link>http://leehankyeol.me/</link>
-    <atom:link href="http://leehankyeol.me/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>콜레라 시대의 사랑 2, 가르시아 마르케스</title>
+        <description>&lt;p&gt;책의 마지막 장을 넘기면서 이 소설이 인생의 그것이 되기에 아주 약간 모자라게 된 결정적인 요소를 찾아내고야 말았다. 그것은 독자로 하여금 이 짧지 않은 이야기를 관통하는 주제를 지고지순한 사랑과 소위 낭만 지상주의의 로맨스로만 받아들이게 만드는 작가의 고약한 의도다. 역자가 평에서도 밝혔듯이 가르시아 마르케스의 《콜레라 시대의 사랑》은 물론 제목에서 노골적으로 밝히는 “사랑”이 제재지만 그 외의 이야기들이 - 그냥 생각나는 것들만 나열해보면 형식으로서의 결혼, 19세기에서 20세기로 넘어오면서 생기는 여러 사회 계층간의 대립과 통합, 이념의 갈등, 사회 제도의 발전과 정비, 전쟁, 노인의 연애, 남녀의 성 역할 등 - 한데 버무려져 있는, 지금 우리가 살아가고 있는 21세기에도 충분히 생각해볼 만한 그런 여러 소주제들 역시 중심 주제 못지 않게 중요한 몫을 차지하고 있다고 본다.&lt;/p&gt;
+
+&lt;p&gt;개인적으로 생각해볼 점도 많았다. 분명히 적지 않은 독자들이 ‘낭만적’이라고 느꼈을 페르미나와 플로렌티노의 감정선, 특히 소설의 최후 장면에서 극도로 고조되는 그 감정선에 대해 개인적으로 공감할 수 없었던 것은 왜일까, 페르미나가 우르비노를 만나기 전 플로렌티노와 나누었던 감정과 결혼 후 우르비노와 나누었던 감정은 어떤 차이가 있었을까, 조금 더 본질적으로 들어가 사랑과 연애와 결혼은 무엇인가, 감정적 교감과 육체적 교감은 하나로 묶어낼 성격의 것인가 아닌가 같은 질문을 스스로에게 던지게 되었다.&lt;/p&gt;
+
+&lt;p&gt;나름대로 내린 결론은, 내가 지난 세월의 나와는 사뭇 다른 사람이 되었고 전과는 분명히 구별되는 가치관을 갖게 되었다는 것이다. 어린 사랑이었다. 아마도 내 사랑은 이제 마냥 어리지만은 아닌 것 같다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;사실대로 말하자면 후베날 우르비노의 구혼은 결코 사랑의 이름으로 제안된 것이 아니라, 그와 같은 독실한 가톨릭 신자가 제안했다고 하기엔 이상한 세속적인 재물들로 채워져 있었다. 즉 사회적 경제적 안정과 질서, 행복, 눈앞의 숫자 등 모두 더하면 사랑처럼 보일 수 있는 것들, 그러니까 거의 사랑이라고 말할 수 있는 것들만 제시했던 것이다. 그러나 그것들은 사랑이 아니었고, 이런 의문은 그녀의 혼란을 가중시켰다. 그녀 역시 사랑이 실제로 삶을 살아가는 데 가장 필요한 것이라는 확신이 없었기 때문이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;하여튼 이 긴 이야기를 부담없이 읽어나갈 수 있는 이유는 아래와 같은 위트가 잊을 만하면 등장하기 때문이다. 담담하면서도 그 안에 담겨 있는 넘치는 재치는 밀란 쿤데라의 서술과 닮아 있다는 느낌이 든다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;당시까지 온 힘을 다해 싸웠지만 결국 아무런 영광도 없이 패배해 버린 가장 큰 전투는 탈모와의 싸움이었다. 빗에 머리칼이 엉켜 있는 것을 보기 시작한 순간부터 그는 당해 보지 않은 사람은 상상도 할 수 없는 고통의 지옥을 선고받았음을 깨달았다. 그는 몇 년간 투쟁했다. 그가 발라보지 않은 포마드와 로션은 하나도 없었으며, 무섭게 황폐화되는 머리를 지키기 위해서라면 견디지 않을 희생도 없고, 믿지 않을 미신도 없었다. 그는 농사용으로 만들어진 ‘브리스톨 연감’의 지시 사항을 모두 외워버렸다. 누군가가 머리카락이 자라는 것은 수확의 주기와 직접적인 관련이 있다고 말하는 것을 들었기 때문이다. 그는 평생 이용하던 이발사가 완전히 대머리라는 이유로 그를 버리고, 대신 달이 4분의 1 정도 찼을 때만 머리를 깎는, 도착한 지 얼마 되지 않은 이방인을 선택했다. 새 이발사가 정말로 비옥한 손을 가지고 있음을 보여주기 시작할 무렵 바로 그가 서인도 제도의 여러 경찰들이 찾고 있던 신참내기 강간범이라는 사실이 밝혀졌고, 이 이발사는 결국 쇠고랑을 찬 채 끌려가고 말았다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;그녀는 무슨 일이든 하다 말고 중간에 멈추고는, 그에게 할 말을 잊었다는 사실을 기억하고서 손바닥으로 이마를 탁 치곤 했다. 그렇게 시시각각 남편만이 대답해 줄 수 있는 수많은 일상적인 질문들이 머릿속에 떠오르곤 했다. 언젠가 그는 그녀가 도저히 받아들일 수 없는 말을 한 적이 있었다. 그것은 불구자들이 더 이상 자기 몸에 달려 있지 않은 다리에서 고통과 경련과 가려움을 느낀다는 말이었다. 그렇게 그녀는 남편이 없다는 것을 느끼고 있었고, 동시에 이제는 그가 없는 곳에서 그를 느끼고 있었다.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 25 Feb 2017 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/book/2017/02/25/el-amor-en-los-tiempos-del-colera2-by-garica-marquez/</link>
+        <guid isPermaLink="true">http://localhost:4000/book/2017/02/25/el-amor-en-los-tiempos-del-colera2-by-garica-marquez/</guid>
+      </item>
+    
+      <item>
+        <title>오늘 새롭게 알게 된 것들</title>
+        <description>&lt;p&gt;오늘 새롭게 알게 된 것들.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;글로리아 스타이넘이라는 페미니스트가 있다. &lt;a href=&quot;https://dose.com/gloria-steinem-went-undercover-as-a-playboy-bunny-5a27059df95d#.rbjwgf3rv&quot;&gt;플레이보이 매거진에서 운영하는 플레이보이 클럽의 착취 행태를 르포로 써내기 위해 위장 취업을 했고 그 결과물을 1963년 5월 Show라는 잡지에 발표했다&lt;/a&gt;. 이는 헌터 톰슨보다 3년 빠른 곤조 저널리즘의 시작이라고 할 수 있고 스타이넘의 글은 언더커버 보도의 교과서적인 예로 남아 있다고 한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;위키피디어를 찾아보니 글로리아 스타이넘은 66세가 되던 2000년에 데이빗 베일과 결혼한다고 나온다. 노년의 첫 결혼이라 궁금해서 링크를 클릭해봤는데 데이빗 베일은 영화배우 크리스천 베일의 아버지로 환경주의자이자 동물권 운동가란다. 데이빗 베일은 2003년에 사망한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;두 사람의 결혼에 대한 이야기를 보던 중 윌마 맨킬러(Mankiller!!)라는 이름이 눈에 띄었다. 도대체 어떤 내력을 타고난 성일까 궁금해서 눌러봤더니 체로키족의 첫 여성 족장(정확한 표현인지는 모르겠다)으로 체로키족의 성 중 하나이자 전사 계급의 이름이라고 한다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;오늘도 이렇게 잡지식이 늘어간다.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Feb 2017 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/life/2017/02/22/gloria-steinem-went-undercover-as-a-playboy-bunny/</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2017/02/22/gloria-steinem-went-undercover-as-a-playboy-bunny/</guid>
+      </item>
     
       <item>
         <title>Smino - blkjuptr</title>
@@ -15,8 +65,8 @@
 &lt;iframe width=&quot;100%&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/aJF9ro9UB0w&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Fri, 10 Feb 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/music/2017/02/10/blkjuptr-by-smino/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/music/2017/02/10/blkjuptr-by-smino/</guid>
+        <link>http://localhost:4000/music/2017/02/10/blkjuptr-by-smino/</link>
+        <guid isPermaLink="true">http://localhost:4000/music/2017/02/10/blkjuptr-by-smino/</guid>
       </item>
     
       <item>
@@ -36,8 +86,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sun, 05 Feb 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/book/2017/02/05/el-amor-en-los-tiempos-del-colera1-by-garica-marquez/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/book/2017/02/05/el-amor-en-los-tiempos-del-colera1-by-garica-marquez/</guid>
+        <link>http://localhost:4000/book/2017/02/05/el-amor-en-los-tiempos-del-colera1-by-garica-marquez/</link>
+        <guid isPermaLink="true">http://localhost:4000/book/2017/02/05/el-amor-en-los-tiempos-del-colera1-by-garica-marquez/</guid>
       </item>
     
       <item>
@@ -53,8 +103,8 @@
 &lt;iframe width=&quot;100%&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/rmlmOk4ubcU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Sat, 28 Jan 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/music/2017/01/28/automaton-by-jamiroquai/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/music/2017/01/28/automaton-by-jamiroquai/</guid>
+        <link>http://localhost:4000/music/2017/01/28/automaton-by-jamiroquai/</link>
+        <guid isPermaLink="true">http://localhost:4000/music/2017/01/28/automaton-by-jamiroquai/</guid>
       </item>
     
       <item>
@@ -63,7 +113,7 @@
 
 &lt;p&gt;글을 읽으며 지난 토요일에 별로 볼 것도 없었던 르누아르 전에 가느니 강남역 행진에나 참석할 걸하는 아쉬움이 든다. 마땅히 버릴 부분없이 깔끔한 글이다.&lt;/p&gt;
 
-&lt;h2 id=&quot;httpsmediumcomdinachka82about-your-poem-1f26a7585a6f&quot;&gt;&lt;a href=&quot;https://medium.com/@dinachka82/about-your-poem-1f26a7585a6f&quot;&gt;미안하지만, 너는 평등하지 않다&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;미안하지만-너는-평등하지-않다&quot;&gt;&lt;a href=&quot;https://medium.com/@dinachka82/about-your-poem-1f26a7585a6f&quot;&gt;미안하지만, 너는 평등하지 않다&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;2017년 1월 21일 토요일에 열린 세계여성공동행진(이하 행진)에 대한 반응으로 소셜 미디어에 돌아다니는 글이 있다. 그 글의 도입부는 다음과 같다.
 “내가 행진에 대해 지지하지 않는다고 해서 여성의 명예를 손상시키는 것은 아니다. 내가 여성이라는 이유로 2류 시민(second class citizen)으로 살아간다고 느끼지도 않는다.”
@@ -134,8 +184,8 @@
 &lt;p&gt;디나 레이거만, 2017&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Jan 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/life/2017/01/25/you-are-not-equal-im-sorry/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/life/2017/01/25/you-are-not-equal-im-sorry/</guid>
+        <link>http://localhost:4000/life/2017/01/25/you-are-not-equal-im-sorry/</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2017/01/25/you-are-not-equal-im-sorry/</guid>
       </item>
     
       <item>
@@ -161,8 +211,8 @@
 &lt;iframe width=&quot;100%&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/rziNFtijGRQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Wed, 25 Jan 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/music/2017/01/25/no-more-interviews-by-big-sean/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/music/2017/01/25/no-more-interviews-by-big-sean/</guid>
+        <link>http://localhost:4000/music/2017/01/25/no-more-interviews-by-big-sean/</link>
+        <guid isPermaLink="true">http://localhost:4000/music/2017/01/25/no-more-interviews-by-big-sean/</guid>
       </item>
     
       <item>
@@ -180,8 +230,8 @@
 &lt;p&gt;는 혹시 CGV 강남에서 감상에 크게 방해가 되는 사람들 만나보신 분들의 경험담을 모아봅니다. 영화를 본 관객이 서로 다른 관객을 평가하는 제도를 도입해 관객 블랙리스트를 만드는 VOC를 내볼까…는 어차피 가능성이 없는 이야기겠지만서도… 여튼 내가 이러려고 돈 내고 영화보러 갔나 자괴감 들고 괴로운 사람의 신세한탄이었습니다. 읽어주셔서 고마워.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Jan 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/life/2017/01/17/kimino-namaewa/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/life/2017/01/17/kimino-namaewa/</guid>
+        <link>http://localhost:4000/life/2017/01/17/kimino-namaewa/</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2017/01/17/kimino-namaewa/</guid>
       </item>
     
       <item>
@@ -208,8 +258,8 @@
 &lt;iframe width=&quot;100%&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/06TjHBcJ7kA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Mon, 26 Dec 2016 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/music/2016/12/26/christmas-eve/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/music/2016/12/26/christmas-eve/</guid>
+        <link>http://localhost:4000/music/2016/12/26/christmas-eve/</link>
+        <guid isPermaLink="true">http://localhost:4000/music/2016/12/26/christmas-eve/</guid>
       </item>
     
       <item>
@@ -225,97 +275,8 @@
 &lt;p&gt;놀라운 것은, 그는 내게 부탁도 하지 않았고, 뭔가 당황하는 기색도 없이, 비데의 세정 기능을 사용하고는 그대로 옷을 매만지더니 그냥 그 자리를 떠났다는 것이다. 그 날 화장실에 남은 건 도저히 작금의 사태를 이해할 수 없는 한 사람의 빡빡이와 알 수 없는 자가 남기고 간 비데 위의 온기뿐이었다.&lt;/p&gt;
 </description>
         <pubDate>Thu, 22 Dec 2016 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/life/2016/12/22/a-story-on-bidet/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/life/2016/12/22/a-story-on-bidet/</guid>
-      </item>
-    
-      <item>
-        <title>뉴욕 여행기 0 : 프롤로그</title>
-        <description>&lt;p&gt;오랜 고등학교 동기 Y가 뉴욕에서 생활을 시작한 지가 꽤 되었으나 실제로 그 친구를 보러 뉴욕을 가봐야겠다는 생각은 어떤 이유에서인지 한 번도 해본 적이 없었다. 9월의 어느 한적한 평일 오후 페이스북 메신저를 통해 이런저런 잡담을 나누던 중, 그 친구가 갑자기 뉴욕이나 놀러오라는 이야기를 던졌다. 나는 그제서야 내가 이 친구를 보러 뉴욕에 가겠다는 생각을 한 번도 해본 적이 없음을 깨달으면서 비행기 표 가격이나 한 번 보겠다고 대답하고는, 결국 JFK 직항 왕복 표삯이 11월만 되어도 100만원 초반대라는 사실을 인지함과 동시에 항공권 결제와 휴가 결재를 마치고 달력에 선을 주윽 그어 “휴가”라는 꼬리표를 달아두었다.&lt;/p&gt;
-
-&lt;p&gt;한국 시간으로 11월 12일 정오 전에 출발해 11월 20일 오후 6시 무렵 돌아오는 일정이었다. 숙박은 관대한 친구 Y의 도움에 힘입어 따로 숙박 업소를 예약하지 않고 뉴욕에서 머무는 7박 내내 Y의 집에 신세를 지기로 했다. (뉴욕의 무시무시한 숙박료와 다른 여러 가지 불편함을 고려할 때 어마어마한 조건이 아닐 수 없는 것이다.) 계획은 거의 아무런 것도 짜가지 않았다. 어렴풋이 가볼까 했던 UFC 205는 뉴욕에서 열리는 첫 대회인 만큼 주최측에서 무척이나 거대한 대진 카드를 들고 나와서 매디슨 스퀘어 가든에서 가장 조악한 뷰를 자랑하는 자리에 앉더라도 최소 $750 이상을 내야 한다는 것을 깨닫고는 곧바로 마음을 접어버렸기 때문이다. 그냥 적당히 시간이 되면 뉴욕 자이언츠의 경기나, 뉴욕 닉스의 경기 정도를 관람하고, 또 시간이 되면 콘서트나 한 번 가보자, 그리고 아직 어딘지는 정하지 않았지만 미술관들을 좀 돌아보고 하자, 정도가 뉴욕으로 떠나는 아시아나 A380에 몸을 실었을 때까지 가지고 있던 생각의 전부였다.&lt;/p&gt;
-
-&lt;p&gt;출발 전날이었던 금요일에는 오후 반차를 쓰고 사당 자취방에서 짐을 싼 뒤 저녁에 연희동으로 갔다. 집에서 남은 짐을 더 챙기고 글렌리벳 15년산을 홀짝홀짝 먹고 잠을 청했다.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 11 Dec 2016 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/travel/2016/12/11/new-york-0-prologue/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/travel/2016/12/11/new-york-0-prologue/</guid>
-      </item>
-    
-      <item>
-        <title>쿨하게 보이는 것이 절대 불가능한 것</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/AskReddit/comments/4hzkvi/what_is_it_completely_impossible_to_look_cool/&quot;&gt;날씨 좋은 5월에 봤던 유쾌한 레딧 포스트&lt;/a&gt;가 12월이 되어서 다시 생각이 나길래 일요일 일요일 밤에 애써 번역해본다. 우리말로 옮겨도 충분히 개그감이 살아 있을 것이라고 믿어 의심치 않는다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;바람에 정처없이 날아다니는 종이를 쫓아다니기.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;간격이 애매해서 매번 같은 쪽 발이 첫 디딤발이 되는 그런 계단을 오르내리기.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;횡단보도 건너는 중, 신호등이 바뀌기 전에 걷는 것도 뛰는 것도 아닌 그 동작.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(이거 심야 토크쇼에서 연예인들 데려다놓고 걔네들이 하면 쿨해보일 수 있는지 시켜보면 재밌겠다.)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;바퀴 달린 사무실 의자에 앉은 채로 이동하기.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;섹스하기 전에 양말 벗기.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;네티팟. (주: 뭔지 몰라서 구글링 해봤는데 &lt;a href=&quot;https://www.youtube.com/watch?v=UFEXjzGagMI&quot;&gt;이 유튜브 클립&lt;/a&gt;을 참고하면 될 것 같다.)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;컨퍼런스 룸 책상 밑으로 기어 들어가서 랩탑 전원 꼽기.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;– (댓글) 그리고 올라오고 나서 어색하게 바지 정리하기.&lt;/p&gt;
-
-&lt;p&gt;– (댓글) 특히나 올라오는 중에 책상에 머리를 박으면 최고.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;생일 축하 노래 받기.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;바퀴 달린 백팩.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;아이패드로 사진 찍기.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;10대 딸의 생일 파티에서의 아버지들.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;개똥 치우기.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;땀에 젖은 스포츠 브라 벗기.(는 나는 뭔지 잘 상상이 안 간다…)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;PT 크루저 몰기.(주: 크라이슬러의 자동차로 &lt;a href=&quot;https://en.wikipedia.org/wiki/Chrysler_PT_Cruiser&quot;&gt;위키피디어 페이지&lt;/a&gt;를 제공해주겠다.)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;탁구공 쫓아가기.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;전립선 검진 받기.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;뭔가 잊어서 복도에서 180도 돌기.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=huqBT50U914&quot;&gt;주로 쓰는 손 아닌 손으로 뭔가 던지기&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 04 Dec 2016 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/life/2016/12/04/what-is-it-completely-impossible-to-look-cool-doing-it/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/life/2016/12/04/what-is-it-completely-impossible-to-look-cool-doing-it/</guid>
+        <link>http://localhost:4000/life/2016/12/22/a-story-on-bidet/</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2016/12/22/a-story-on-bidet/</guid>
       </item>
     
   </channel>
