@@ -3,8 +3,8 @@
   <channel>
     <title>이한결 블로그</title>
     <description>술과 여자를 좋아합니다.</description>
-    <link>http://leehankyeol.me/</link>
-    <atom:link href="http://leehankyeol.me/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>런던 여행기 1 : 무장애 디자인</title>
@@ -40,8 +40,8 @@
 다시금 강남역에서의 기억이 떠올랐고 나는 왠지 모르게 황급히 자리를 떴다.&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Oct 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/travel/2017/10/21/london-1/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/travel/2017/10/21/london-1/</guid>
+        <link>http://localhost:4000/travel/2017/10/21/london-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/travel/2017/10/21/london-1/</guid>
       </item>
     
       <item>
@@ -55,8 +55,8 @@
 &lt;p&gt;탬파베이 레이스의 팬이 되고 실제 탬파베이 레이스의 경기를 보러 가기까지 거의 10년의 시간이 걸렸던 것에 비하면 이번에 첼시 FC의 경기를 직관하는 것은 여러모로 의미가 더 크다. 일단 직관까지 걸린 시간도 시간이거니와(2005년의 1.8군 경기는 잠시 잊자.) 홈 구장에서 경기를 보게 되었고(2012년 당시 레이스의 경기는 필라델피아 어웨이였다.) 경기의 상대는 강력한 우승 후보 중 하나인 맨체스터 시티다. 이 이 주의 소비를 올해의 소비로 만들 마지막 조건은 첼시의 승리인데 지난 주말 아스날 전에서 보인 경기력이라면 좀 긴가민가하기는 하지만 그래도 오랜 첼시 팬에게는 이만큼 값진 소비가 없을 것이다.&lt;/p&gt;
 </description>
         <pubDate>Sun, 17 Sep 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/life/2017/09/17/chelsea-fc/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/life/2017/09/17/chelsea-fc/</guid>
+        <link>http://localhost:4000/life/2017/09/17/chelsea-fc/</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2017/09/17/chelsea-fc/</guid>
       </item>
     
       <item>
@@ -83,8 +83,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 12 Sep 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/book/2017/09/12/homo-justice/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/book/2017/09/12/homo-justice/</guid>
+        <link>http://localhost:4000/book/2017/09/12/homo-justice/</link>
+        <guid isPermaLink="true">http://localhost:4000/book/2017/09/12/homo-justice/</guid>
       </item>
     
       <item>
@@ -100,8 +100,8 @@
 &lt;p&gt;서울대공원 동물원은 성인 기준 입장료가 9천원이고 동물원 입구를 드나드는 코끼리 열차는 필수는 아니지만 타고 가면 쾌적하기가 그지없으며 편도로 1천원을 받는다.&lt;/p&gt;
 </description>
         <pubDate>Sun, 10 Sep 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/life/2017/09/10/seoul-grand-park-zoo/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/life/2017/09/10/seoul-grand-park-zoo/</guid>
+        <link>http://localhost:4000/life/2017/09/10/seoul-grand-park-zoo/</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2017/09/10/seoul-grand-park-zoo/</guid>
       </item>
     
       <item>
@@ -111,8 +111,8 @@
 &lt;p&gt;오늘이 FKJ의 내한이라죠? 기념으로 진짜 죽이는 영상 하나 보고 가세요. 여러분의 8분을 제가 가져가겠습니다.&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 Sep 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/music/2017/09/07/tadow-by-fkj-masego/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/music/2017/09/07/tadow-by-fkj-masego/</guid>
+        <link>http://localhost:4000/music/2017/09/07/tadow-by-fkj-masego/</link>
+        <guid isPermaLink="true">http://localhost:4000/music/2017/09/07/tadow-by-fkj-masego/</guid>
       </item>
     
       <item>
@@ -142,8 +142,8 @@
 &lt;p&gt;하지만 부족한 점은 여전히 많다. API의 측면에서는 사실상 운영&amp;amp;관리 경험이 전무하다고 봐야 하기 때문에 스케일러빌리티 이슈나 배포 등에 있어 아직 걸음마 단계에 불과함을 절실히 느꼈다. 같은 프로덕트의 여러 플레이버flavor 를 하나의 코드 베이스로 관리를 해나가는 것에도 어려움을 겪고 있다. 짧은 나의 코딩 인생(…)을 되돌아봤을 때 결국 절실히 필요해지면 다 익혀왔으니 조금 더 이런 어려움의 시간이 길어지면 자연스럽게(?) 배우게 될 내용들이라는 희망은 잃지 않는다. 우리 존재 화이팅.&lt;/p&gt;
 </description>
         <pubDate>Tue, 29 Aug 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/life/2017/08/29/coding/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/life/2017/08/29/coding/</guid>
+        <link>http://localhost:4000/life/2017/08/29/coding/</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2017/08/29/coding/</guid>
       </item>
     
       <item>
@@ -161,8 +161,8 @@
 &lt;p&gt;결론은 유니클로다. 사당 파스텔시티 지하 1층의 유니클로 매장을 방문한 나는 자연스럽게 남성 바지가 있는 코너를 찾았고 거기서 이 심플하고 튼튼해보이는 검정색 벨트를 찾아냈다. 벨트 제품은 환불이 안 된다는 매장 직원의 친절한 안내를 뒤로 하고 29,000원에 후계자를 입양했다. 이번 포스트로 16번째 이 주의 소비를 올리고 있는데 앞으로는 무슨 이야기들을 써갈 수 있을지 큰 불안감을 느끼면서 나는 내일부터 새 벨트를 하고 출근을 할 것이다.&lt;/p&gt;
 </description>
         <pubDate>Sun, 27 Aug 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/life/2017/08/27/belt/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/life/2017/08/27/belt/</guid>
+        <link>http://localhost:4000/life/2017/08/27/belt/</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2017/08/27/belt/</guid>
       </item>
     
       <item>
@@ -178,8 +178,8 @@
 &lt;iframe width=&quot;100%&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/XzcHJAONSSo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Wed, 23 Aug 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/music/2017/08/23/one-more-kiss-by-vangelis/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/music/2017/08/23/one-more-kiss-by-vangelis/</guid>
+        <link>http://localhost:4000/music/2017/08/23/one-more-kiss-by-vangelis/</link>
+        <guid isPermaLink="true">http://localhost:4000/music/2017/08/23/one-more-kiss-by-vangelis/</guid>
       </item>
     
       <item>
@@ -205,8 +205,8 @@
 &lt;p&gt;이상 계곡에 관하여.&lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Aug 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/life/2017/08/20/valley/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/life/2017/08/20/valley/</guid>
+        <link>http://localhost:4000/life/2017/08/20/valley/</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2017/08/20/valley/</guid>
       </item>
     
       <item>
@@ -220,8 +220,8 @@
 &lt;p&gt;마리아 타케우치의 플래스틱 러브 역시 이 대열에 합류할 만한 곡이라고 생각합니다. 망설이지 말고 플레이 버튼을 눌러보세요. 절대 아깝지 않은 8분의 시간이 여러분 앞에 펼쳐질 것입니다.&lt;/p&gt;
 </description>
         <pubDate>Thu, 17 Aug 2017 00:00:00 +0900</pubDate>
-        <link>http://leehankyeol.me/music/2017/08/17/plastic-love-by-maria-takeuchi/</link>
-        <guid isPermaLink="true">http://leehankyeol.me/music/2017/08/17/plastic-love-by-maria-takeuchi/</guid>
+        <link>http://localhost:4000/music/2017/08/17/plastic-love-by-maria-takeuchi/</link>
+        <guid isPermaLink="true">http://localhost:4000/music/2017/08/17/plastic-love-by-maria-takeuchi/</guid>
       </item>
     
   </channel>
