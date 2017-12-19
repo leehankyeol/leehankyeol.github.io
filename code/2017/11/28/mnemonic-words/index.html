@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>비트코인과 페미니즘 &#8211; 이한결 블로그</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="비트코인의 세계에는 지갑이라는 개념이 존재한다. 이 지갑이 어떤 로직으로 생성이 되고 보안을 유지하고 어쩌고를 하고 저쩌고를 하는지는 원래는 대단히 중요하고 어려운 이야기지만 오늘의 포스트에서는 별로 주목할 필요가 없다. 이렇게 이야기를 해보자. 최근의 비트코인 지갑은 일정한 안정성과 보안성의 균형을 유지하기 위해 실제 지갑 소유자에게 기억을 하기 쉬운(mnemonic) 단어의 무작위적인 나열을 제시한다. 지갑 소유자가 이 단어를 잃어버리거나 유출하지 않으면 그의 비트코인은 무사하다.">
+    <meta name="author" content="Lee Han Kyeol">
+    <meta name="keywords" content="Code">
+    <link rel="canonical" href="http://leehankyeol.me/code/2017/11/28/mnemonic-words/">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for 이한결 블로그" href="/feed.xml" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css?201712192109" type="text/css">
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+    <!-- Verifications -->
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="비트코인과 페미니즘">
+    <meta property="og:description" content="술과 여자를 좋아합니다.">
+    <meta property="og:url" content="http://leehankyeol.me/code/2017/11/28/mnemonic-words/">
+    <meta property="og:site_name" content="이한결 블로그">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:title" content="비트코인과 페미니즘" />
+    <meta name="twitter:description" content="비트코인의 세계에는 지갑이라는 개념이 존재한다. 이 지갑이 어떤 로직으로 생성이 되고 보안을 유지하고 어쩌고를 하고 저쩌고를 하는지는 원래는 대단히 중요하고 어려운 이야기지만 오늘의 포스트에서는 별로 주목할 필요가 없다. 이렇게 이야기를 해보자. 최근의 비트코인 지갑은 일정한 안정성과 보안성의 균형을 유지하기 위해 실제 지갑 소유자에게 기억을 하기 쉬운(mnemonic) 단어의 무작위적인 나열을 제시한다. 지갑 소유자가 이 단어를 잃어버리거나 유출하지 않으면 그의 비트코인은 무사하다." />
+    <meta name="twitter:url" content="http://leehankyeol.me/code/2017/11/28/mnemonic-words/" />
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+
+    
+</head>
+
+<body class="site">
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="/" class="site-title">이한결 블로그</a>
+      <nav class="site-nav">
+        <a href="/about/">About</a>
+<a href="/book">Book</a>
+<a href="/code">Code</a>
+<a href="/life">Life</a>
+<a href="/movie">Movie</a>
+<a href="/music">Music</a>
+<a href="/travel">Travel</a>
+
+      </nav>
+      <div class="clearfix"></div>
+      
+        <div class="social-icons">
+  <div class="social-icons-right">
+    
+      <a class="fa fa-github" href="https://github.com/leehankyeol"></a>
+    
+    
+    
+      <a class="fa fa-stack-overflow" href="https://stackoverflow.com/users/4286919"></a>
+    
+    <a class="fa fa-rss" href="/feed.xml"></a>
+    
+    
+    
+    
+    
+    
+  </div>
+  <div class="right">
+    
+    
+    
+  </div>
+</div>
+<div class="clearfix"></div>
+
+      
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        
+
+
+<div class="post-header mb2">
+  <h1>비트코인과 페미니즘</h1>
+  <span class="post-meta">Nov 28, 2017</span><br>
+  
+  <span class="post-meta small">
+  
+    1 minute read
+  
+  </span>
+</div>
+
+<article class="post-content">
+  <p>비트코인의 세계에는 지갑이라는 개념이 존재한다. 이 지갑이 어떤 로직으로 생성이 되고 보안을 유지하고 어쩌고를 하고 저쩌고를 하는지는 원래는 대단히 중요하고 어려운 이야기지만 오늘의 포스트에서는 별로 주목할 필요가 없다. 이렇게 이야기를 해보자. 최근의 비트코인 지갑은 일정한 안정성과 보안성의 균형을 유지하기 위해 실제 지갑 소유자에게 기억을 하기 쉬운(mnemonic) 단어의 무작위적인 나열을 제시한다. 지갑 소유자가 이 단어를 잃어버리거나 유출하지 않으면 그의 비트코인은 무사하다.</p>
+
+<p>현재 암호화폐 거래소 부문에서 세계를 이끌어가는 대한민국의 이름이 걸맞게 저 기억을 하기 쉬운 단어의 언어셋에는 <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/korean.txt">한국어도 있다!</a> 한국어 언어셋을 추가하자는 제안이 처음 나온 것은 6 월 1 일의 일로 제안자의 당시 제안 내용을 살펴보면 다음과 같다.</p>
+
+<ol>
+  <li>국립국어원이 2002 년에 발표한 [<한국어 학습용="" 어휘="" 목록="">의 단어](http://www.korean.go.kr/front/etcData/etcDataView.do?mn_id=46&amp;etc_seq=71)를 기준으로</한국어></li>
+  <li>동의어를 지우고</li>
+  <li>1 음절 단어를 지우고</li>
+  <li>첫 2 음절이 같은 단어를 지우고</li>
+  <li>균등분포를 사용해 랜덤하게 2048 개의 샘플을 고른다.(2048 개는 다른 언어셋의 규격에 맞추기 위함이다.)</li>
+</ol>
+
+<p>이런저런 수정 끝에 2048 개의 단어가 선정되었다. 2002 년에 발표된 자료라는 사실부터 불안감이 엄습한 나는 단어의 목록을 한 번 쭉 훑어보기로 했다. 아래 링크를 타고 가면 당신도 그 목록을 확인할 수 있다.</p>
+
+<p>대부분이 그냥 흔히 쓰이는 단어들인 가운데 “약혼녀”, “여고생”, “여대생” 같은 단어가 눈에 띈다. 당연히 최종으로 랜덤 선택을 거친 결과이므로 약혼남, 남고생, 남대생 같은 단어는 없다.</p>
+
+<p>이것은 가타부타 결론을 내리기 어려운 이야기며, 그냥 한 번 글로 남겨보고 싶은 사실에 대한 이야기다.</p>
+
+</article>
+
+
+  <div class="share-page">
+  Share this post
+
+  <div class="share-links">
+    
+      <a class = "fa fa-facebook" href="https://facebook.com/sharer.php?u=http://leehankyeol.me/code/2017/11/28/mnemonic-words/" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+    
+
+    
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=비트코인과 페미니즘&url=http://leehankyeol.me/code/2017/11/28/mnemonic-words/" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+  </div>
+</div>
+
+
+
+
+  <div class="py2 post-footer">
+  <img src="/images/bender.png" alt="Bender" class="avatar" />
+  <p>
+    Lee, Han Kyeol
+  </p>
+  <p>
+    I like women and booze.
+  </p>
+</div>
+
+
+
+
+
+
+  <h3 class="related-post-title">Related Posts</h3>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="measure">
+    <small>
+      Theme crafted with &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>), slightly updated withoug &lt;3 by <a href="http://leehankyeol.me">Lee Han Kyeol</a>.<br>
+      &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll">Github</a>.
+    </small>
+  </div>
+</footer>
+
+</body>
+</html>
