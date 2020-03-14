@@ -1,0 +1,261 @@
+<html>
+  <head>
+    <title>
+      코드스쿨에서 제안하는 웹디자인의 기초 중 알맹이들 :: 이한결 블로그
+    </title>
+    <style>
+      /* https://github.com/markdowncss/modest/blob/master/css/modest.css */
+      @media print {
+        *,
+        *:before,
+        *:after {
+          background: transparent !important;
+          color: #000 !important;
+          box-shadow: none !important;
+          text-shadow: none !important;
+        }
+
+        a,
+        a:visited {
+          text-decoration: underline;
+        }
+
+        a[href]:after {
+          content: ' (' attr(href) ')';
+        }
+
+        abbr[title]:after {
+          content: ' (' attr(title) ')';
+        }
+
+        a[href^='#']:after,
+        a[href^='javascript:']:after {
+          content: '';
+        }
+
+        pre,
+        blockquote {
+          border: 1px solid #999;
+          page-break-inside: avoid;
+        }
+
+        thead {
+          display: table-header-group;
+        }
+
+        tr,
+        img {
+          page-break-inside: avoid;
+        }
+
+        img {
+          max-width: 100% !important;
+        }
+
+        p,
+        h2,
+        h3 {
+          orphans: 3;
+          widows: 3;
+        }
+
+        h2,
+        h3 {
+          page-break-after: avoid;
+        }
+      }
+
+      pre,
+      code {
+        font-family: Menlo, Monaco, 'Courier New', monospace;
+      }
+
+      pre {
+        padding: 0.5rem;
+        line-height: 1.25;
+        overflow-x: scroll;
+      }
+
+      a,
+      a:visited {
+        color: #3498db;
+      }
+
+      a:hover,
+      a:focus,
+      a:active {
+        color: #2980b9;
+      }
+
+      .modest-no-decoration {
+        text-decoration: none;
+      }
+
+      html {
+        font-size: 12px;
+      }
+
+      @media screen and (min-width: 32rem) and (max-width: 48rem) {
+        html {
+          font-size: 15px;
+        }
+      }
+
+      @media screen and (min-width: 48rem) {
+        html {
+          font-size: 16px;
+        }
+      }
+
+      body {
+        line-height: 1.85;
+      }
+
+      p,
+      .modest-p {
+        font-size: 1rem;
+        margin-bottom: 1.3rem;
+      }
+
+      h1,
+      .modest-h1,
+      h2,
+      .modest-h2,
+      h3,
+      .modest-h3,
+      h4,
+      .modest-h4 {
+        margin: 1.414rem 0 0.5rem;
+        font-weight: inherit;
+        line-height: 1.42;
+      }
+
+      h1,
+      .modest-h1 {
+        margin-top: 0;
+        font-size: 3.998rem;
+      }
+
+      h2,
+      .modest-h2 {
+        font-size: 2.827rem;
+      }
+
+      h3,
+      .modest-h3 {
+        font-size: 1.999rem;
+      }
+
+      h4,
+      .modest-h4 {
+        font-size: 1.414rem;
+      }
+
+      h5,
+      .modest-h5 {
+        font-size: 1.121rem;
+      }
+
+      h6,
+      .modest-h6 {
+        font-size: 0.88rem;
+      }
+
+      small,
+      .modest-small {
+        font-size: 0.707em;
+      }
+
+      /* https://github.com/mrmrs/fluidity */
+
+      img,
+      canvas,
+      iframe,
+      video,
+      svg,
+      select,
+      textarea {
+        max-width: 100%;
+      }
+
+      @import url(
+        http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,
+        300italic,
+        700
+      );
+
+      @import url(http://fonts.googleapis.com/css?family=Arimo:700, 700italic);
+
+      html {
+        font-size: 18px;
+        max-width: 100%;
+      }
+
+      body {
+        color: #444;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+        margin: 0 auto;
+        max-width: 48rem;
+        line-height: 1.45;
+        padding: 0.25rem;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Arimo, Helvetica, sans-serif;
+      }
+
+      h1,
+      h2,
+      h3 {
+        border-bottom: 2px solid #fafafa;
+        margin-bottom: 1.15rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+      }
+
+      blockquote {
+        border-left: 8px solid #fafafa;
+        padding: 1rem;
+      }
+
+      pre,
+      code {
+        background-color: #fafafa;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>
+        이한결 블로그
+        <a href="http://leehankyeol.me">✍️</a>
+        <a href="https://github.com/leehankyeol">💻</a>
+        <a href="https://www.instagram.com/leehankyeol.me">📷</a>
+        <a href="https://www.facebook.com/lee.hankyeol">🍻</a>
+      </h2>
+    </header>
+    <article>
+      <h1>코드스쿨에서 제안하는 웹디자인의 기초 중 알맹이들</h1>
+<p>유료 강의의 내용을 일목요연하게 정리하는 것은 여러모로 문제가 있기 때문에 내가 앞으로 기억해두면 쓸 만한 내용 딱 세 가지만 정리한다. 책상 위에서 며칠째 나뒹굴고 있는 이면지를 처리하기 위한 목적도 있긴 하다.</p>
+<h3>1. 텍스트</h3>
+<p>기본적인 바디 텍스트 크기로 16px을 제안한다. 헤드라인(headeline)은 그를 기준으로 3em, 2단계 헤드라인(B-heads)은 1.5em, 내비게이션은 1em, 그리고 필자명 등의 부수정보(byline)은 0.75em을 권장한다. 줄 간격(leading)은 1.2~1.5em라는 기준을 제시했는데 결국 가장 바람직한 답안은 1.5em인 것으로 결론을 내렸다. 한 줄에 들어가는 글자 수는(CPL) 넉넉잡아 50~70, 조금 더 정확하게는 55~65 CPL이 적당하다고 한다. 글자 크기와 텍스트가 들어가는 가로 크기(여기에 모바일 환경에 대한 고려도 물론 포함한다), 폰트의 특성 등을 잘 고려하면 어느 상황에서나 모범적인 예시를 만들어낼 수 있다.</p>
+<h3>2. 색</h3>
+<p>솔직히 색은 잘 모르겠지만서도 최소 기본 테마색이 주어졌다는 전제하에 언제든 무난하게 어울릴 수 있는 색 조합을 찾는 것은 그리 어려운 일이 아니었다. HSB 또는 HSV 색 공간에서 단채도(monochromatic) 조합, 유사색(analogous) 조합, 보색(complementary) 조합만 찾더라도, 그것도 일정량의 센스(?)없이 공식에 때려 맞추기만 해도 된다. 단채도는 말 그대로 채도(hue)를 고정하고 나머지 요소를 조금씩 조정한 것, 유사색은 채도를 조금씩 바꾸어 나가는 것, 보색은 단채도 색 두어 개에 그와 채도에서 180도 차이가 나는 색으로 단채도 색 두어 개를 찾으면 된다.</p>
+<h3>3. 정리</h3>
+<p>그리드 디자인이며 폰트 매치며 이런 저런 내용이 있었지만 자명하거나 한글에 적용하기 힘든 내용 등을 제외하면 결국 어떤 기준으로 디자인의 완성도를 결정할 수 있느냐가 결론이 아닐까 싶었다. 코드스쿨에서 제안한 한 가지 이야기는 &quot;옹호할 수 없다면 바꿔라.(If you can’t defend it, change it.)&quot;는 거였다. 다분히 주관적인 이야기지만 최소한 그게 한 사람에게나마, 또는 하나의 팀, 집단에게나마 유효하게 적용될 수 있다면 그럭저럭 쓸 만한 룰이라는 생각이다.</p>
+
+    </article>
+    <footer>
+      Styled by
+      <a href="https://github.com/markdowncss/modest/blob/master/css/modest.css"
+        >Modest</a
+      >
+    </footer>
+  </body>
+</html>
