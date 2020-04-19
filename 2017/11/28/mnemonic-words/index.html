@@ -1,0 +1,266 @@
+<html>
+  <head>
+    <title>
+      비트코인과 페미니즘 :: 이한결 블로그
+    </title>
+    <style>
+      /* https://github.com/markdowncss/modest/blob/master/css/modest.css */
+      @media print {
+        *,
+        *:before,
+        *:after {
+          background: transparent !important;
+          color: #000 !important;
+          box-shadow: none !important;
+          text-shadow: none !important;
+        }
+
+        a,
+        a:visited {
+          text-decoration: underline;
+        }
+
+        a[href]:after {
+          content: ' (' attr(href) ')';
+        }
+
+        abbr[title]:after {
+          content: ' (' attr(title) ')';
+        }
+
+        a[href^='#']:after,
+        a[href^='javascript:']:after {
+          content: '';
+        }
+
+        pre,
+        blockquote {
+          border: 1px solid #999;
+          page-break-inside: avoid;
+        }
+
+        thead {
+          display: table-header-group;
+        }
+
+        tr,
+        img {
+          page-break-inside: avoid;
+        }
+
+        img {
+          max-width: 100% !important;
+        }
+
+        p,
+        h2,
+        h3 {
+          orphans: 3;
+          widows: 3;
+        }
+
+        h2,
+        h3 {
+          page-break-after: avoid;
+        }
+      }
+
+      pre,
+      code {
+        font-family: Menlo, Monaco, 'Courier New', monospace;
+      }
+
+      pre {
+        padding: 0.5rem;
+        line-height: 1.25;
+        overflow-x: scroll;
+      }
+
+      a,
+      a:visited {
+        color: #3498db;
+      }
+
+      a:hover,
+      a:focus,
+      a:active {
+        color: #2980b9;
+      }
+
+      .modest-no-decoration {
+        text-decoration: none;
+      }
+
+      html {
+        font-size: 12px;
+      }
+
+      @media screen and (min-width: 32rem) and (max-width: 48rem) {
+        html {
+          font-size: 15px;
+        }
+      }
+
+      @media screen and (min-width: 48rem) {
+        html {
+          font-size: 16px;
+        }
+      }
+
+      body {
+        line-height: 1.85;
+      }
+
+      p,
+      .modest-p {
+        font-size: 1rem;
+        margin-bottom: 1.3rem;
+      }
+
+      h1,
+      .modest-h1,
+      h2,
+      .modest-h2,
+      h3,
+      .modest-h3,
+      h4,
+      .modest-h4 {
+        margin: 1.414rem 0 0.5rem;
+        font-weight: inherit;
+        line-height: 1.42;
+      }
+
+      h1,
+      .modest-h1 {
+        margin-top: 0;
+        font-size: 3.998rem;
+      }
+
+      h2,
+      .modest-h2 {
+        font-size: 2.827rem;
+      }
+
+      h3,
+      .modest-h3 {
+        font-size: 1.999rem;
+      }
+
+      h4,
+      .modest-h4 {
+        font-size: 1.414rem;
+      }
+
+      h5,
+      .modest-h5 {
+        font-size: 1.121rem;
+      }
+
+      h6,
+      .modest-h6 {
+        font-size: 0.88rem;
+      }
+
+      small,
+      .modest-small {
+        font-size: 0.707em;
+      }
+
+      /* https://github.com/mrmrs/fluidity */
+
+      img,
+      canvas,
+      iframe,
+      video,
+      svg,
+      select,
+      textarea {
+        max-width: 100%;
+      }
+
+      @import url(
+        http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,
+        300italic,
+        700
+      );
+
+      @import url(http://fonts.googleapis.com/css?family=Arimo:700, 700italic);
+
+      html {
+        font-size: 18px;
+        max-width: 100%;
+      }
+
+      body {
+        color: #444;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+        margin: 0 auto;
+        max-width: 48rem;
+        line-height: 1.45;
+        padding: 0.25rem;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Arimo, Helvetica, sans-serif;
+      }
+
+      h1,
+      h2,
+      h3 {
+        border-bottom: 2px solid #fafafa;
+        margin-bottom: 1.15rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+      }
+
+      blockquote {
+        border-left: 8px solid #fafafa;
+        padding: 1rem;
+      }
+
+      pre,
+      code {
+        background-color: #fafafa;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>
+        이한결 블로그
+        <a href="http://leehankyeol.me">✍️</a>
+        <a href="https://github.com/leehankyeol">💻</a>
+        <a href="https://www.instagram.com/leehankyeol.me">📷</a>
+        <a href="https://www.facebook.com/lee.hankyeol">🍻</a>
+      </h2>
+    </header>
+    <article>
+      <h1>비트코인과 페미니즘</h1>
+<p>비트코인의 세계에는 지갑이라는 개념이 존재한다. 이 지갑이 어떤 로직으로 생성이 되고 보안을 유지하고 어쩌고를 하고 저쩌고를 하는지는 원래는 대단히 중요하고 어려운 이야기지만 오늘의 포스트에서는 별로 주목할 필요가 없다. 이렇게 이야기를 해보자. 최근의 비트코인 지갑은 일정한 안정성과 보안성의 균형을 유지하기 위해 실제 지갑 소유자에게 기억을 하기 쉬운(mnemonic) 단어의 무작위적인 나열을 제시한다. 지갑 소유자가 이 단어를 잃어버리거나 유출하지 않으면 그의 비트코인은 무사하다.</p>
+<p>현재 암호화폐 거래소 부문에서 세계를 이끌어가는 대한민국의 이름이 걸맞게 저 기억을 하기 쉬운 단어의 언어셋에는 <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/korean.txt">한국어도 있다!</a> 한국어 언어셋을 추가하자는 제안이 처음 나온 것은 6 월 1 일의 일로 제안자의 당시 제안 내용을 살펴보면 다음과 같다.</p>
+<ol>
+<li>국립국어원이 2002 년에 발표한 <a href="http://www.korean.go.kr/front/etcData/etcDataView.do?mn_id=46&amp;etc_seq=71">&lt;한국어 학습용 어휘 목록&gt;의 단어</a>를 기준으로</li>
+<li>동의어를 지우고</li>
+<li>1 음절 단어를 지우고</li>
+<li>첫 2 음절이 같은 단어를 지우고</li>
+<li>균등분포를 사용해 랜덤하게 2048 개의 샘플을 고른다.(2048 개는 다른 언어셋의 규격에 맞추기 위함이다.)</li>
+</ol>
+<p>이런저런 수정 끝에 2048 개의 단어가 선정되었다. 2002 년에 발표된 자료라는 사실부터 불안감이 엄습한 나는 단어의 목록을 한 번 쭉 훑어보기로 했다. 아래 링크를 타고 가면 당신도 그 목록을 확인할 수 있다.</p>
+<p>대부분이 그냥 흔히 쓰이는 단어들인 가운데 “약혼녀”, “여고생”, “여대생” 같은 단어가 눈에 띈다. 당연히 최종으로 랜덤 선택을 거친 결과이므로 약혼남, 남고생, 남대생 같은 단어는 없다.</p>
+<p>이것은 가타부타 결론을 내리기 어려운 이야기며, 그냥 한 번 글로 남겨보고 싶은 사실에 대한 이야기다.</p>
+
+    </article>
+    <footer>
+      Styled by
+      <a href="https://github.com/markdowncss/modest/blob/master/css/modest.css"
+        >Modest</a
+      >
+    </footer>
+  </body>
+</html>

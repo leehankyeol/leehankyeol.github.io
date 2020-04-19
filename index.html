@@ -1,355 +1,253 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>이한결 블로그</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="술과 여자를 좋아합니다.">
-    <meta name="author" content="Lee Han Kyeol">
-    
-    <link rel="canonical" href="http://leehankyeol.me/">
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed for 이한결 블로그" href="/feed.xml" />
+  <head>
+    <title>
+      이한결 블로그
+    </title>
+    <style>
+      /* https://github.com/markdowncss/modest/blob/master/css/modest.css */
+      @media print {
+        *,
+        *:before,
+        *:after {
+          background: transparent !important;
+          color: #000 !important;
+          box-shadow: none !important;
+          text-shadow: none !important;
+        }
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/pixyll.css?201908030832" type="text/css">
+        a,
+        a:visited {
+          text-decoration: underline;
+        }
 
-    <!-- Fonts -->
-    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
-    
-      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-    
+        a[href]:after {
+          content: ' (' attr(href) ')';
+        }
 
-    <!-- Verifications -->
-    
+        abbr[title]:after {
+          content: ' (' attr(title) ')';
+        }
 
-    <!-- Open Graph -->
-    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="이한결 블로그">
-    <meta property="og:description" content="술과 여자를 좋아합니다.">
-    <meta property="og:url" content="http://leehankyeol.me/">
-    <meta property="og:site_name" content="이한결 블로그">
+        a[href^='#']:after,
+        a[href^='javascript:']:after {
+          content: '';
+        }
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary" />
-    
-    <meta name="twitter:title" content="이한결 블로그" />
-    <meta name="twitter:description" content="술과 여자를 좋아합니다." />
-    <meta name="twitter:url" content="http://leehankyeol.me/" />
+        pre,
+        blockquote {
+          border: 1px solid #999;
+          page-break-inside: avoid;
+        }
 
-    <!-- Icons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+        thead {
+          display: table-header-group;
+        }
 
-    
-</head>
+        tr,
+        img {
+          page-break-inside: avoid;
+        }
 
-<body class="site">
-  <div class="site-wrap">
-    <header class="site-header px2 px-responsive">
-  <div class="mt2 wrap">
-    <div class="measure">
-      <a href="/" class="site-title">이한결 블로그</a>
-      <nav class="site-nav">
-        <a href="/about/">About</a>
-<a href="/book">Book</a>
-<a href="/code">Code</a>
-<a href="/life">Life</a>
-<a href="/movie">Movie</a>
-<a href="/music">Music</a>
-<a href="/travel">Travel</a>
+        img {
+          max-width: 100% !important;
+        }
 
-      </nav>
-      <div class="clearfix"></div>
-      
-        <div class="social-icons">
-  <div class="social-icons-right">
-    
-      <a class="fa fa-github" href="https://github.com/leehankyeol"></a>
-    
-    
-    
-      <a class="fa fa-stack-overflow" href="https://stackoverflow.com/users/4286919"></a>
-    
-    <a class="fa fa-rss" href="/feed.xml"></a>
-    
-    
-    
-    
-    
-    
-  </div>
-  <div class="right">
-    
-    
-    
-  </div>
-</div>
-<div class="clearfix"></div>
+        p,
+        h2,
+        h3 {
+          orphans: 3;
+          widows: 3;
+        }
 
-      
-    </div>
-  </div>
-</header>
+        h2,
+        h3 {
+          page-break-after: avoid;
+        }
+      }
 
+      pre,
+      code {
+        font-family: Menlo, Monaco, 'Courier New', monospace;
+      }
 
-    <div class="post p2 p-responsive wrap" role="main">
-      <div class="measure">
-        <div class="home">
+      pre {
+        padding: 0.5rem;
+        line-height: 1.25;
+        overflow-x: scroll;
+      }
 
-  <div class="posts">
-    
-      <div class="post py3">
-        <p class="post-meta">
-          Oct 28, 2018
-        </p>
-        <a href="/book/2018/10/28/cien-anos-de-soledad-by-gabriel-garcia-marquez/" class="post-link">
-          <h3 class="h1 post-title">백년의 고독, 가브리엘 가르시아 마르케</h3>
-        </a>
-        
-        <p class="post-summary">
-          
-            이번 주말은 최대한 아무 것도 하지 말자는 주의로 (다행히도 일요일의 약속 두 개가 연달아 취소되는 쾌거가 있었다.) 지지부진하던 독서에 많은 시간을 쏟았다. 마르케스가 그리는 로맨스와 이성애 안에서의 여성관을, 마술적 사실주의라는 그야말로 마법과도 같은 단어로 묘사된 체계 안에서 이해하고 감탄하기엔 아무래도 불편했다.
-          
-        </p>
-        <p>
-          <a href="/book/2018/10/28/cien-anos-de-soledad-by-gabriel-garcia-marquez/" class="post-link">
-            더 읽기...
-          </a>
-        </p>
-      </div>
-    
-      <div class="post py3">
-        <p class="post-meta">
-          Aug 12, 2018
-        </p>
-        <a href="/book/2018/08/12/a-farewell-to-arms-by-ernest-hemingway/" class="post-link">
-          <h3 class="h1 post-title">무기여 잘 있거라, 어니스트 헤밍웨이</h3>
-        </a>
-        
-        <p class="post-summary">
-          
-            영광이니 명예니 용기니 신성이니 하는 추상적인 말들은 마을의 이름이나 도로의 번호, 강 이름, 연대의 번호나 날짜와 비교해 보면 오히려 외설스럽게 느껴졌다.
-          
-        </p>
-        <p>
-          <a href="/book/2018/08/12/a-farewell-to-arms-by-ernest-hemingway/" class="post-link">
-            더 읽기...
-          </a>
-        </p>
-      </div>
-    
-      <div class="post py3">
-        <p class="post-meta">
-          Aug 1, 2018
-        </p>
-        <a href="/book/2018/08/01/dubliners-by-james-joyce/" class="post-link">
-          <h3 class="h1 post-title">더블린 사람들, 제임스 조이스</h3>
-        </a>
-        
-        <p class="post-summary">
-          
-            이런 말들이 나한테 이토록 따분하고 차갑게 보이는 건 도대체 무슨 영문일까? 당신의 이름이 될 수 있을 만큼 애틋한 단어가 없는 탓일까?
-          
-        </p>
-        <p>
-          <a href="/book/2018/08/01/dubliners-by-james-joyce/" class="post-link">
-            더 읽기...
-          </a>
-        </p>
-      </div>
-    
-      <div class="post py3">
-        <p class="post-meta">
-          Jul 29, 2018
-        </p>
-        <a href="/life/2018/07/29/portrait/" class="post-link">
-          <h3 class="h1 post-title">초상화</h3>
-        </a>
-        
-        <p class="post-thumbanil-wrapper">
-          <a href="/life/2018/07/29/portrait/" class="post-link">
-            <img class="post-thumbnail" src="/images/" />
-          </a>
-        </p>
-        
-        <p class="post-summary">
-          
-            세상에서 가장 쓸모없지만 또 받고 나면 괜히 버리기는 찝찝한 선물을 궁리하고 계신 여러분들께 강력하게 초상화 선물을 추천드립니다.
-          
-        </p>
-        <p>
-          <a href="/life/2018/07/29/portrait/" class="post-link">
-            더 읽기...
-          </a>
-        </p>
-      </div>
-    
-      <div class="post py3">
-        <p class="post-meta">
-          Jul 21, 2018
-        </p>
-        <a href="/life/2018/07/21/where-to-be-seated/" class="post-link">
-          <h3 class="h1 post-title">향초</h3>
-        </a>
-        
-        <p class="post-summary">
-          
-            약간 결이 다른 이야기론, 나는 웬만해서는 TV 가 보이는 자리를 서로 피하려고 하고, 정 피할 수 없을 때는 내가 TV 를 등지는 자리를 선호한다. TV 를 생활 공간, 업무 공간에 두고 있지 않은 나는 아무래도 TV 가 보이면 시선을 빼앗기기 마련인데, 그것을 맘에 들어할 사람은 많지 않을 것기 때문이다.
-          
-        </p>
-        <p>
-          <a href="/life/2018/07/21/where-to-be-seated/" class="post-link">
-            더 읽기...
-          </a>
-        </p>
-      </div>
-    
-      <div class="post py3">
-        <p class="post-meta">
-          Jul 19, 2018
-        </p>
-        <a href="/life/2018/07/19/trekking/" class="post-link">
-          <h3 class="h1 post-title">등산</h3>
-        </a>
-        
-        <p class="post-summary">
-          
-            일요일에는 관악산을 다녀왔다. 2016 년, 다니던 회사의 또래 친구들과 다녀온 뒤 처음으로 가는 관악산행이었다. 날씨가 정말 더웠고 사당역에서 올라가는 길이 생각보다 험했음에도 별탈 없이 무사 귀환했다. 약 5 시간 정도 이어진 등산 및 하산 중 느꼈던 것들을 간단히 정리해본다.
-          
-        </p>
-        <p>
-          <a href="/life/2018/07/19/trekking/" class="post-link">
-            더 읽기...
-          </a>
-        </p>
-      </div>
-    
-      <div class="post py3">
-        <p class="post-meta">
-          Jul 10, 2018
-        </p>
-        <a href="/life/2018/07/10/scented-candles/" class="post-link">
-          <h3 class="h1 post-title">향초</h3>
-        </a>
-        
-        <p class="post-summary">
-          
-            하지만 이런 노력에도 불구하고(?) 나는 향이 없는 사람으로 곧잘 인식된다. 이유는 잘 모르겠다. 자연스러운 체취든, 별도로 얹은 향이든 내 몸에는 냄새라는 것이 잘 붙어있질 않는다. 향수를 뿌리고 바로 외출해서 만난 사람이 향수를 전혀 느끼지 못할 때도 있었다. 나는 곧바로 그 사람들의 후각을 탓했지만 비슷한 일화가 여러 번 있었던 것으로 보아 어느 정도 일관성이 있다고 볼 수 있다. (물론 향수를 너무 진하게 뿌린 것이 아니냐고 묻는 사람들도 종종 있긴 했다. 나는 그 사람들의 후각도 의심하고 있다.)
-          
-        </p>
-        <p>
-          <a href="/life/2018/07/10/scented-candles/" class="post-link">
-            더 읽기...
-          </a>
-        </p>
-      </div>
-    
-      <div class="post py3">
-        <p class="post-meta">
-          Jul 9, 2018
-        </p>
-        <a href="/music/2018/07/09/remember-by-katie/" class="post-link">
-          <h3 class="h1 post-title">Katie - Remember</h3>
-        </a>
-        
-        <p><iframe width="100%" height="300" src="https://www.youtube.com/embed/RDIAWI6nMQhQI" frameborder="0" allowfullscreen=""></iframe></p>
-        
-        <p class="post-summary">
-          
-            요새 페이스북에 유튜브 링크 공유를 잘 하지 않았는데 좋은 것은 나만 듣고 나만 보자는 심산이었기 때문이다. 하지만 어쩌다 발견한 이 트랙은 여러 의미에서 나의 오감을 일깨우는 경험을 선사했기에 공유해본다. 2018년에 보는, 3018년에서 온 뮤직비디오 같다.
-          
-        </p>
-        <p>
-          <a href="/music/2018/07/09/remember-by-katie/" class="post-link">
-            더 읽기...
-          </a>
-        </p>
-      </div>
-    
-      <div class="post py3">
-        <p class="post-meta">
-          Jul 2, 2018
-        </p>
-        <a href="/life/2018/07/02/le-creuset-skillet/" class="post-link">
-          <h3 class="h1 post-title">Le Creuset skillet</h3>
-        </a>
-        
-        <p class="post-summary">
-          
-            그간 사용하던 테팔 팬이 있었다. 이제는 다소 낡기도 했고 무엇보다 이사온 집의 하이라이트(나는 여태까지 이걸 인덕션이라고 불러왔는데 얼마 전에 하이라이트라고 부르는 게 맞다는 걸 알게 되었다.)와는 사이즈가 잘 맞질 않았다. 2 구 하이라이트의 더 큰 구가 너무 벽에 붙어 있어서 기존의 팬을 사용하면 온도를 효율적으로 전달할 수 없는 구조였다. 그래서 그냥 하나 샀다. 요새 보니까 어딘가에서 엄청난 물량이 병행수입을 하는지 이곳저곳에서 저렴한 가격으로 팔고 있는 르쿠르제의 23cm 스킬렛이다. 아직 사용해보진 않았지만 물건을 딱 봤을 때의 소감은 1. 진짜 무겁다. 이걸 주로 사용하는 사람은 관절 관리를 열심히 하지 않을 경우 곧 손목이 고장날 가능성이 높을 것이다. 2. 진짜 무거우니까 웬만하면 작은 사이즈를 살 것. 3. 다시 한 번 강조하는데 무겁다.
-          
-        </p>
-        <p>
-          <a href="/life/2018/07/02/le-creuset-skillet/" class="post-link">
-            더 읽기...
-          </a>
-        </p>
-      </div>
-    
-      <div class="post py3">
-        <p class="post-meta">
-          Jun 21, 2018
-        </p>
-        <a href="/life/2018/06/21/pc/" class="post-link">
-          <h3 class="h1 post-title">PC함</h3>
-        </a>
-        
-        <p class="post-summary">
-          
-            PC는 기본적으로 불편한 개념이라고 본다. 하지만 PC를 지킬 때 당사자가 느끼는 불편함은 PC를 지키지 않을 때 대상자가 받는 불편함에 비해선 미미할 것이다. 업계 사람들이 그렇게 물고 빠는 피터 티엘이 이야기한 것처럼 PC는 다양한 논의가 오가는 것을 저해하는 "가장 거대한 정치적 문제"인 것이 아니라 그 다양한 논의를 공정하고 균형감 있게 진행할 수 있는 가장 기본적인 토대라고 생각한다.
-          
-        </p>
-        <p>
-          <a href="/life/2018/06/21/pc/" class="post-link">
-            더 읽기...
-          </a>
-        </p>
-      </div>
-    
-  </div>
+      a,
+      a:visited {
+        color: #3498db;
+      }
 
-  <div class="pagination clearfix mb1 mt4">
-  <div class="left">
-    
-      <span class="pagination-item disabled">Newer</span>
-    
-  </div>
-  <div class="right">
-    
-      <a class="pagination-item" href="/page2/">Older</a>
-    
-  </div>
-</div>
+      a:hover,
+      a:focus,
+      a:active {
+        color: #2980b9;
+      }
 
-</div>
-      </div>
-    </div>
-  </div>
+      .modest-no-decoration {
+        text-decoration: none;
+      }
 
-  <footer class="center">
-  <div class="measure">
-    <small>
-      Theme crafted with &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>), slightly updated withoug &lt;3 by <a href="http://leehankyeol.me">Lee Han Kyeol</a>.<br>
-      &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll">Github</a>.
-    </small>
-  </div>
-</footer>
+      html {
+        font-size: 12px;
+      }
 
-</body>
+      @media screen and (min-width: 32rem) and (max-width: 48rem) {
+        html {
+          font-size: 15px;
+        }
+      }
+
+      @media screen and (min-width: 48rem) {
+        html {
+          font-size: 16px;
+        }
+      }
+
+      body {
+        line-height: 1.85;
+      }
+
+      p,
+      .modest-p {
+        font-size: 1rem;
+        margin-bottom: 1.3rem;
+      }
+
+      h1,
+      .modest-h1,
+      h2,
+      .modest-h2,
+      h3,
+      .modest-h3,
+      h4,
+      .modest-h4 {
+        margin: 1.414rem 0 0.5rem;
+        font-weight: inherit;
+        line-height: 1.42;
+      }
+
+      h1,
+      .modest-h1 {
+        margin-top: 0;
+        font-size: 3.998rem;
+      }
+
+      h2,
+      .modest-h2 {
+        font-size: 2.827rem;
+      }
+
+      h3,
+      .modest-h3 {
+        font-size: 1.999rem;
+      }
+
+      h4,
+      .modest-h4 {
+        font-size: 1.414rem;
+      }
+
+      h5,
+      .modest-h5 {
+        font-size: 1.121rem;
+      }
+
+      h6,
+      .modest-h6 {
+        font-size: 0.88rem;
+      }
+
+      small,
+      .modest-small {
+        font-size: 0.707em;
+      }
+
+      /* https://github.com/mrmrs/fluidity */
+
+      img,
+      canvas,
+      iframe,
+      video,
+      svg,
+      select,
+      textarea {
+        max-width: 100%;
+      }
+
+      @import url(
+        http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,
+        300italic,
+        700
+      );
+
+      @import url(http://fonts.googleapis.com/css?family=Arimo:700, 700italic);
+
+      html {
+        font-size: 18px;
+        max-width: 100%;
+      }
+
+      body {
+        color: #444;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+        margin: 0 auto;
+        max-width: 48rem;
+        line-height: 1.45;
+        padding: 0.25rem;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Arimo, Helvetica, sans-serif;
+      }
+
+      h1,
+      h2,
+      h3 {
+        border-bottom: 2px solid #fafafa;
+        margin-bottom: 1.15rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+      }
+
+      blockquote {
+        border-left: 8px solid #fafafa;
+        padding: 1rem;
+      }
+
+      pre,
+      code {
+        background-color: #fafafa;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>
+        이한결 블로그
+        <a href="http://leehankyeol.me">✍️</a>
+        <a href="https://github.com/leehankyeol">💻</a>
+        <a href="https://www.instagram.com/leehankyeol.me">📷</a>
+        <a href="https://www.facebook.com/lee.hankyeol">🍻</a>
+      </h2>
+    </header>
+    <article>
+      <ul><li><a href="2014/06/13/all-our-patent-are-belong-you">2014-06-13 우리의 특허는 이제 모두의 것입니다</a></li><li><a href="2014/06/24/wifi-doesnt-stand-for-anything">2014-06-24 와이파이는 어떤 의미도 없습니다</a></li><li><a href="2014/06/27/why-i-write-george-orwell">2014-06-27 《나는 왜 쓰는가, 조지 오웰》의 인상 깊은 글귀들</a></li><li><a href="2014/07/06/id-give-a-lot-to-have-steves-taste">2014-07-06 "I'd give a lot to have Steve's taste."</a></li><li><a href="2014/07/09/how-the-bicycle-paved-the-way-for-womens-rights">2014-07-09 자전거와 여권(女權) 신장</a></li><li><a href="2014/07/19/taylor-swift-wall-street-journal">2014-07-19 테일러 스위프트로부터 얻을 수 있는 4가지 음악 산업 인사이트</a></li><li><a href="2015/01/23/possibility-and-probability">2015-01-23 가능성과 개연성</a></li><li><a href="2015/02/07/seoul-city-by-kim-hyeon-cheol">2015-02-07 김현철 - 서울도 비가 오면 괜찮은 도시</a></li><li><a href="2015/04/28/the-object-oriented-thought-process">2015-04-28 객체지향적으로 생각하라!</a></li><li><a href="2015/07/15/taipei-0-prologue">2015-07-15 타이페이 여행기 0 : 프롤로그</a></li><li><a href="2015/07/15/taipei-1-on-online-duty-free-shopping">2015-07-15 타이페이 여행기 1 : 인터넷 면세점을 이용해보자</a></li><li><a href="2015/07/16/taipei-2-its-ok-if-you-cant-speak-chinese">2015-07-16 타이페이 여행기 2 : 대만, 중국어 전혀 못해도 문제 없다</a></li><li><a href="2015/07/16/taipei-3-taking-a-cab">2015-07-16 타이페이 여행기 3 : 날이 더울 때는 부담없이 택시를 타자</a></li><li><a href="2015/07/18/taipei-4-the-first-trip-to-the-night-market">2015-07-18 타이페이 여행기 4 : 야시장? 야시장! 야시장...</a></li><li><a href="2015/07/18/taipei-5-national-taiwan-museum">2015-07-18 타이페이 여행기 5 : 국립 타이완 박물관은 국립고궁박물원이 아니다</a></li><li><a href="2015/07/19/taipei-6-mengjia-longshan-temple">2015-07-19 타이페이 여행기 6 : 용산사</a></li><li><a href="2015/07/21/taipei-7-such-beer-much-cheap">2015-07-21 타이페이 여행기 7 : 타이페이 까르푸의 술은 매우 저렴하니 꼭 사다 먹자</a></li><li><a href="2015/07/21/taipei-8-the-road-to-jiufen">2015-07-21 타이페이 여행기 8 : 지우펀으로 가는 길</a></li><li><a href="2015/07/23/taipei-9-jiufen-and-clam-soup">2015-07-23 타이페이 여행기 9 : 조갯국이 기가 막히게 맛있는 곳, 지우펀</a></li><li><a href="2015/07/29/taipei-10-the-second-trip-to-the-night-market">2015-07-29 타이페이 여행기 10 : 타이페이 야시장은 역시 라오허제 야시장</a></li><li><a href="2015/08/30/taipei-11-national-palace-museum">2015-08-30 타이페이 여행기 11 : 그럼에도 한 번은 가봐야 하는 국립고궁박물원</a></li><li><a href="2015/09/14/lessons-from-fundamentals-of-design-by-codeschool">2015-09-14 코드스쿨에서 제안하는 웹디자인의 기초 중 알맹이들</a></li><li><a href="2015/09/18/taipei-12-huoguo-and-travel">2015-09-18 타이페이 여행기 12 : 훠궈, 그리고 여행</a></li><li><a href="2015/09/24/dont-you-know-by-jan-hammer-group">2015-09-24 Jan Hammer Group - Don't You Know</a></li><li><a href="2015/10/07/asphalt-by-lowdown-30">2015-10-07 로다운 30 - 아스팔트</a></li><li><a href="2015/10/19/oh-ol-bukchon-where-art-thou">2015-10-19 북촌 이야기</a></li><li><a href="2015/10/21/the-labor-of-the-others">2015-10-21 타인의 노동</a></li><li><a href="2015/10/28/the-belkin-tales-by-alexander-pushkin">2015-10-28 벨킨 이야기, 알렉산드르 푸시킨</a></li><li><a href="2015/10/31/fragmentary-thoughts-on-the-subway-ad">2015-10-31 지하철에 붙어 있는 성형외과 광고를 보며 생각에 잠겼다.</a></li><li><a href="2015/11/02/miguel-street-by-v-s-naipaul">2015-11-02 미겔 스트리트, V. S. 나이폴</a></li><li><a href="2015/11/08/belong-by-washed-out">2015-11-08 Washed Out - Belong</a></li><li><a href="2015/11/10/the-time-will-come">2015-11-10 살다 보면 그런 때가 온다.</a></li><li><a href="2015/11/11/saint-petersburg-tales-by-nikolai-gogol">2015-11-11 뻬쩨르부르그 이야기, 고골</a></li><li><a href="2015/11/25/suicide-is-painless-by-lady-and-bird">2015-11-25 Lady & Bird - Suicide is Painless</a></li><li><a href="2015/12/01/surviving-as-a-designer-in-south-korea">2015-12-01 헬조선에서 디자이너 브랜드로 살아남기</a></li><li><a href="2015/12/03/taipei-13-backstreet-of-tamsui-district">2015-12-03 타이페이 여행기 13 : 단수이의 뒷골목</a></li><li><a href="2015/12/03/taipei-14-the-beautiful-seaside">2015-12-03 타이페이 여행기 14 : 타이페이 가면 꼭 봐야 할 단수이의 노을</a></li><li><a href="2015/12/03/taipei-15-the-local-bar-of-taipei">2015-12-03 타이페이 여행기 15 : 리젠트 타이페이 근처의 술집</a></li><li><a href="2015/12/03/taipei-16-epilogue">2015-12-03 타이페이 여행기 16 : 에필로그</a></li><li><a href="2015/12/08/dear-5th-issue-dyeing-message">2015-12-08 DEAR. 5th Issue : dyeing message</a></li><li><a href="2015/12/14/tale-of-a-butcher-shop">2015-12-14 푸줏간 이야기</a></li><li><a href="2015/12/21/the-painted-veil-by-w-somerset-maugham">2015-12-21 인생의 베일, 서머싯 몸</a></li><li><a href="2016/01/02/le-proces-verbal-by-le-clezio">2016-01-02 조서, 르 클레지오</a></li><li><a href="2016/01/07/last-nights-dream">2016-01-07 간밤의 꿈과 옛날 이야기</a></li><li><a href="2016/01/10/no-longer-human-by-osamu-dazai">2016-01-10 인간실격, 다자이 오사무</a></li><li><a href="2016/01/13/theres-a-good-reason-americans-are-horrible-at-science">2016-01-13 미국인들이 과학에 무지한 이유</a></li><li><a href="2016/01/15/london-observed-by-doris-lessing">2016-01-15 런던 스케치, 도리스 레싱</a></li><li><a href="2016/01/17/holding-on-for-life-by-broken-bells">2016-01-17 Broken Bells - Holding on for Life</a></li><li><a href="2016/02/15/fiona-coyne-by-skylar-spence">2016-02-15 Skylar Spence - Fiona Coyne</a></li><li><a href="2016/02/21/el-beso-de-la-mujer-arana-by-manuel-puig">2016-02-21 거미 여인의 키스, 마누엘 푸익</a></li><li><a href="2016/02/23/what-is-not-important-in-life">2016-02-23 당신 삶에서 그닥 중요하지 않은 것</a></li><li><a href="2016/03/16/the-3-wine-studies-that-changed-my-life">2016-03-16 와인에 대한 3가지 사실</a></li><li><a href="2016/03/17/stepping-stone-by-lemaitre">2016-03-17 Lemaitre - Stepping Stone (feat. Mark Johns)</a></li><li><a href="2016/03/29/ending-march">2016-03-29 3월을 마치며</a></li><li><a href="2016/03/31/opening-avengerschool">2016-03-31 어벤져스쿨을 열며</a></li><li><a href="2016/04/05/lotta-love-by-da-chick">2016-04-05 Da Chick - Lotta Love</a></li><li><a href="2016/04/10/country-of-fathers-country-of-sons-by-lee-won-jae">2016-04-10 아버지의 나라, 아들의 나라, 이원재</a></li><li><a href="2016/04/12/worst-actors-hollywood">2016-04-12 최악의 영화에 자주 등장한 헐리우드 배우들</a></li><li><a href="2016/04/20/news-trust-digital-social-media">2016-04-20 미국사람들은 페이스북보다 레딧을 더 신뢰한다</a></li><li><a href="2016/04/22/datetime-createfromformat-in-php">2016-04-22 내가 오늘 새롭게 알게 된 사실</a></li><li><a href="2016/04/25/lectures-on-theory-of-relativity-by-lee">2016-04-25 이종필의 아주 특별한 상대성이론 강의, 이종필</a></li><li><a href="2016/04/28/on-subway">2016-04-28 지하철에서</a></li><li><a href="2016/05/09/open-season-by-josef-salvat">2016-05-09 Josef Salvat - Open Season (Une Autre Saison)</a></li><li><a href="2016/05/11/Should-the-U-S-federal-government-regulate-artificial-intelligence-to-keep-it-ethical-and-non-dangerous">2016-05-11 연방 정부 차원에서 인공 지능을 윤리적이고 위험하지 않기 위해 규제가 필요할까요?</a></li><li><a href="2016/05/30/what-does-it-cost-to-make-a-running-shoe">2016-05-30 내가 신는 신발은 얼마에 만들어지는가</a></li><li><a href="2016/06/01/dream-of-an-island">2016-06-01 섬에 대한 꿈</a></li><li><a href="2016/06/08/sustainable-development-by-c-douglas-lummis">2016-06-08 경제성장이 안되면 우리는 풍요롭지 못할 것인가, C. 더글러스 러미스</a></li><li><a href="2016/06/09/an-extra-year-of-school-and-a-house-ful">2016-06-09 책과 함께 큰 아이가 커서 더 잘 번댄다</a></li><li><a href="2016/06/12/the-girl-in-the-yellow-dress-by-david-gilmour">2016-06-12 David Gilmour - The Girl in the Yellow Dress</a></li><li><a href="2016/06/13/telltale-signs-that-a-film-sucks">2016-06-13 구린 영화의 징후들</a></li><li><a href="2016/06/22/shadow-dance-by-goonam">2016-06-22 구남과여라이딩스텔라 - 샤도우 댄스</a></li><li><a href="2016/07/02/the-foundation-pit-by-andrei-platonov">2016-07-02 구덩이, 안드레이 플라토노프</a></li><li><a href="2016/07/12/como-agua-para-chocolate-by-laura-esquivel">2016-07-12 달콤 쌉싸름한 초콜릿, 라우라 에스키벨</a></li><li><a href="2016/07/18/why-do-the-poor-make-such-poor-decisions">2016-07-18 왜 가난한 사람들은 모자란 결정을 내릴까?</a></li><li><a href="2016/07/21/revizor-by-nikolai-gogol">2016-07-21 검찰관, 고골</a></li><li><a href="2016/07/30/the-vegeterian-by-han-kang">2016-07-30 채식주의자, 한강</a></li><li><a href="2016/08/04/boat-behind-by-kings-of-convenience">2016-08-04 Kings of Convenience - Boat Behind</a></li><li><a href="2016/08/09/a-handful-of-dust-by-evelyn-waugh">2016-08-09 한 줌의 먼지, 에벌린 워</a></li><li><a href="2016/08/10/a-murderers-guide-to-memorization-by-kim-young-ha">2016-08-10 살인자의 기억법, 김영하</a></li><li><a href="2016/08/15/and-the-guest-wore-yellow">2016-08-15 그럼에도 그 하객은 노란 옷을 입었다</a></li><li><a href="2016/09/05/the-oxford-comma-can-be-very-important">2016-09-05 옥스포드 콤마</a></li><li><a href="2016/09/21/on-rodong-website">2016-09-21 로동신문 소스 코드</a></li><li><a href="2016/09/23/smells-like-teen-shovel-coub">2016-09-23 Smells like teen shovel coub</a></li><li><a href="2016/10/02/sanctuary-by-william-faulkner">2016-10-02 성역, 윌리엄 포크너</a></li><li><a href="2016/10/10/warm-on-a-cold-night-by-honne">2016-10-10 Honne - Warm On A Cold Night</a></li><li><a href="2016/10/25/autumn-leaves-by-eric-clapton">2016-10-25 Eric Clapton - Autumn Leaves</a></li><li><a href="2016/10/27/ibm-is-counting-on-its-bet-on-watson">2016-10-27 기계가 미래다.</a></li><li><a href="2016/11/09/meals">2016-11-09 밀스를 13개째 먹고 쓰는 리뷰</a></li><li><a href="2016/11/12/boris-godunov-and-other-dramatic-works-by-alexander-pushkin">2016-11-12 푸슈킨 선집, 알렉산드르 푸슈킨</a></li><li><a href="2016/11/17/korean-modern-history-by-kang-joon-man">2016-11-17 한국 현대사 산책 1950년대편 3권, 강준만</a></li><li><a href="2016/11/24/adam-crapser-and-the-traumas-of-international-adoption">2016-11-24 국제 입양의 트라우마</a></li><li><a href="2016/11/28/things-that-make-you-a-better-musician">2016-11-28 좋은 음악인의 조건</a></li><li><a href="2016/12/01/discovering-political-parties">2016-12-01 정당의 발견, 박상훈</a></li><li><a href="2016/12/03/what-is-it-completely-impossible-to-look-cool-doing-it">2016-12-03 쿨하게 보이는 것이 절대 불가능한 것</a></li><li><a href="2016/12/11/new-york-0-prologue">2016-12-11 '뉴욕 여행기 0 : 프롤로그'</a></li><li><a href="2016/12/22/a-story-on-bidet">2016-12-22 비데에 관한 일화</a></li><li><a href="2016/12/26/christmas-eve">2016-12-26 올해 크리스마스 이브의 술자리</a></li><li><a href="2017/01/17/kimino-namaewa">2017-01-17 너의 이름은.</a></li><li><a href="2017/01/25/no-more-interviews-by-big-sean">2017-01-25 Big Sean - No More Interviews</a></li><li><a href="2017/01/25/you-are-not-equal-im-sorry">2017-01-25 미안하지만, 너는 평등하지 않다</a></li><li><a href="2017/01/28/automaton-by-jamiroquai">2017-01-28 Jamiroquai - Automaton</a></li><li><a href="2017/02/05/el-amor-en-los-tiempos-del-colera1-by-garica-marquez">2017-02-05 콜레라 시대의 사랑 1, 가르시아 마르케스</a></li><li><a href="2017/02/10/blkjuptr-by-smino">2017-02-10 Smino - blkjuptr</a></li><li><a href="2017/02/22/gloria-steinem-went-undercover-as-a-playboy-bunny">2017-02-22 오늘 새롭게 알게 된 것들</a></li><li><a href="2017/02/25/el-amor-en-los-tiempos-del-colera2-by-garica-marquez">2017-02-25 콜레라 시대의 사랑 2, 가르시아 마르케스</a></li><li><a href="2017/02/28/fox-news-tucker-carlson-says-moonlight-only-won-best-picture-because-of-political-correctness">2017-02-28 나는 문리건이다</a></li><li><a href="2017/03/03/casey-affleck-oscar-win">2017-03-03 예술과 예술가</a></li><li><a href="2017/03/04/la-jalusie-by-alain-robbe-grillet">2017-03-04 질투, 알랭 로브그리예</a></li><li><a href="2017/03/08/try-effortless-by-dvsn">2017-03-08 dvsn - Try / Effortless</a></li><li><a href="2017/03/19/the-woman-in-the-dunes-by-kobo-abe">2017-03-19 모래의 여자, 아베 코보</a></li><li><a href="2017/03/23/freshcode">2017-03-23 프레시코드를 10개째 먹고 쓰는 리뷰</a></li><li><a href="2017/03/24/what-i-learned-from-stack-overflows-massive-servey-of-64000-developers">2017-03-24 2017 스택오버플로우 설문조사 결과 요약</a></li><li><a href="2017/03/30/brooklyn-by-fickle-friends">2017-03-30 Fickle Friends - Brooklyn</a></li><li><a href="2017/04/03/ui-ux-and-bathroom">2017-04-03 UI와 UX, 그리고 화장실</a></li><li><a href="2017/04/19/washswat">2017-04-19 세탁읔공대</a></li><li><a href="2017/04/24/a-trivial-fact-on-php">2017-04-24 오늘의 전혀 훌륭하지 않은 PHP 상식</a></li><li><a href="2017/04/29/what-is-a-nation-by-yoo-si-min">2017-04-29 국가란 무엇인가, 유시민</a></li><li><a href="2017/04/30/simsim">2017-04-30 심심철학관</a></li><li><a href="2017/05/06/short-stories-by-anton-chekhov">2017-05-06 체호프 단편선, 안톤 체호프</a></li><li><a href="2017/05/07/oliver-peoples-ennis">2017-05-07 올리버피플스 에니스</a></li><li><a href="2017/05/10/aimez-vous-brahms-by-francoise-sagan">2017-05-10 브람스를 좋아하세요..., 프랑수아즈 사강</a></li><li><a href="2017/05/14/advantage-clean-shoes">2017-05-14 아디다스 네오 어드밴티지 클린 슈즈</a></li><li><a href="2017/05/16/ballad-of-the-prodigal-son-by-lincoln-durham">2017-05-16 Lincoln Durham - Ballad of the Prodigal Son</a></li><li><a href="2017/05/19/way-more-americans-may-be-atheists-than-we-thought">2017-05-19 미국 내 무신론자의 비율은 우리 생각보다 많다</a></li><li><a href="2017/05/21/iamdak">2017-05-21 아임닭 닭가슴살</a></li><li><a href="2017/05/29/young-south-koreans-turning-religion">2017-05-29 한국 젊은 계층의 종교 참여도가 떨어지고 있다</a></li><li><a href="2017/06/04/kullen-6-drawer">2017-06-04 이케아 쿨렌 6칸 서랍장</a></li><li><a href="2017/06/11/itaewon-the-burger">2017-06-11 이태원 더 버거</a></li><li><a href="2017/06/13/toiler-paper">2017-06-13 화장실에 갔다.</a></li><li><a href="2017/06/18/seoullo-7017">2017-06-18 서울로 7017</a></li><li><a href="2017/06/21/thug-lee">2017-06-21 이떠그</a></li><li><a href="2017/06/24/vingle">2017-06-24 빙글의 고객 서비스</a></li><li><a href="2017/07/01/janet-by-berhana">2017-07-01 berhana - Janet</a></li><li><a href="2017/07/02/highlight">2017-07-02 하이라이트</a></li><li><a href="2017/07/06/reference">2017-07-06 레퍼런스</a></li><li><a href="2017/07/07/cloudy-seoul-by-mot">2017-07-07 MOT - 서울은 흐림</a></li><li><a href="2017/07/09/trash-bin">2017-07-09 쓰레기통</a></li><li><a href="2017/07/17/lotto">2017-07-17 로또</a></li><li><a href="2017/07/18/google-robot-factory-raises-sterile-mosquitos-automated-device-will-release-a-million-per-week">2017-07-18 모기와 인간</a></li><li><a href="2017/07/23/the-black-skirts">2017-07-23 검정치마</a></li><li><a href="2017/07/25/constitutional-law">2017-07-25 지금 다시, 헌법, 차병직, 윤재왕, 윤지영</a></li><li><a href="2017/07/26/swatch">2017-07-26 와치 아웃 스와치</a></li><li><a href="2017/07/28/gold-by-hyukoh">2017-07-28 Hyukoh - Gold</a></li><li><a href="2017/07/30/just-feminists">2017-07-30 저스트 페미니스트</a></li><li><a href="2017/08/06/chahola">2017-08-06 차올라</a></li><li><a href="2017/08/07/tales-by-nathaniel-hawthorne">2017-08-07 나사니엘 호손 단편선</a></li><li><a href="2017/08/09/the-neymar-deal-was-certainly-crazy-but-was-it-smart">2017-08-09 네이마르의 이적에 관한 538의 글을 읽고</a></li><li><a href="2017/08/13/tattoo">2017-08-13 타투</a></li><li><a href="2017/08/17/plastic-love-by-maria-takeuchi">2017-08-17 Maria Takeuchi - Plastic Love</a></li><li><a href="2017/08/20/valley">2017-08-20 관악산 계곡의 백숙</a></li><li><a href="2017/08/23/one-more-kiss-by-vangelis">2017-08-23 Vangelis - One More Kiss, Dear</a></li><li><a href="2017/08/27/belt">2017-08-27 유니클로 벨트</a></li><li><a href="2017/08/29/coding">2017-08-29 아무도 읽을 필요 없는 최근 코딩 근황</a></li><li><a href="2017/09/07/tadow-by-fkj-masego">2017-09-07 FKJ & Masego - Tadow</a></li><li><a href="2017/09/10/seoul-grand-park-zoo">2017-09-10 서울대공원 동물원</a></li><li><a href="2017/09/12/homo-justice-by-kim">2017-09-12 호모 저스티스, 김만권</a></li><li><a href="2017/09/17/chelsea-fc">2017-09-17 첼시 FC 홈경기 티켓</a></li><li><a href="2017/10/01/vendredi-ou-les-limbes-du-pacifique">2017-10-01 방드르디, 태평양의 끝, 미셸 투르니에</a></li><li><a href="2017/10/21/london-1">2017-10-21 런던 여행기 1 : 무장애 디자인</a></li><li><a href="2017/10/29/weight">2017-10-29 315kcal</a></li><li><a href="2017/11/05/resume">2017-11-05 자기 소개 슬라이드</a></li><li><a href="2017/11/08/auditorium-by-mos-def">2017-11-08 Mos Def - Auditorium</a></li><li><a href="2017/11/12/adidas-spezial-jacket">2017-11-12 아디다스 스페지알 리버서블 자켓</a></li><li><a href="2017/11/19/london-2-hampton-court-palace">2017-11-19 런던 여행기2: 햄튼 코트 팰리스</a></li><li><a href="2017/11/21/cool-with-you-by-hers">2017-11-21 Her's - Cool with you</a></li><li><a href="2017/11/26/dyson-supersonic">2017-11-26 다이슨 슈퍼소닉</a></li><li><a href="2017/11/28/mnemonic-words">2017-11-28 비트코인과 페미니즘</a></li><li><a href="2017/12/10/ssingssing">2017-12-10 노선택과 소울소스 & 김율희 x 씽씽 조인트 콘서트</a></li><li><a href="2017/12/17/breaking-bad">2017-12-17 브레이킹 배드 시즌1</a></li><li><a href="2017/12/24/wacko-maria">2017-12-24 와코 마리아 자켓</a></li><li><a href="2017/12/31/london-3-on-being-a-fan">2017-12-31 런던 여행기3: 프로 스포츠 팀의 팬이 되는 것에 대하여</a></li><li><a href="2018/01/03/muedigkeitsgesellschaft">2018-01-03 피로사회, 한병철</a></li><li><a href="2018/01/07/pt">2018-01-07 PT</a></li><li><a href="2018/01/16/notalgia-island-by-tatsuro-yamashita">2018-01-16 Tatsuro Yamashita - Nostalgia island</a></li><li><a href="2018/02/01/12-00-by-fantastic-drugstore">2018-02-01 Fantastic Drugstore - 12:00</a></li><li><a href="2018/02/04/balmuda-air-engine">2018-02-04 발뮤다 에어엔진</a></li><li><a href="2018/02/18/sanbat-diary">2018-02-18 산밭일기, 이유근</a></li><li><a href="2018/03/07/get-you-by-daniel-caesar">2018-03-07 Daniel Caeser - Get you</a></li><li><a href="2018/03/25/lockdown">2018-03-25 락다운</a></li><li><a href="2018/04/03/jm-weston">2018-04-03 J. M. Weston 골프 더비 슈즈</a></li><li><a href="2018/04/08/new-house">2018-04-08 새 집</a></li><li><a href="2018/04/15/reserved-army-training">2018-04-15 예비군 훈련</a></li><li><a href="2018/04/29/truffle-oil">2018-04-29 Savini Tartufi 트러플 오일</a></li><li><a href="2018/05/13/mi-wifi-router">2018-05-13 샤오미 공유기 4</a></li><li><a href="2018/05/22/early-summer-by-rossy-punky-perfume">2018-05-22 Rosey PP - Early summer</a></li><li><a href="2018/06/05/pub">2018-06-05 소주잔</a></li><li><a href="2018/06/21/pc">2018-06-21 PC함</a></li><li><a href="2018/07/02/le-creuset-skillet">2018-07-02 Le Creuset skillet</a></li><li><a href="2018/07/09/remember-by-katie">2018-07-09 Katie - Remember</a></li><li><a href="2018/07/10/scented-candles">2018-07-10 향초</a></li><li><a href="2018/07/19/trekking">2018-07-19 등산</a></li><li><a href="2018/07/21/where-to-be-seated">2018-07-21 술자리</a></li><li><a href="2018/07/29/portrait">2018-07-29 초상화</a></li><li><a href="2018/08/01/dubliners-by-james-joyce">2018-08-01 더블린 사람들, 제임스 조이스</a></li><li><a href="2018/08/12/a-farewell-to-arms-by-ernest-hemingway">2018-08-12 무기여 잘 있거라, 어니스트 헤밍웨이</a></li><li><a href="2018/10/28/cien-anos-de-soledad-by-gabriel-garcia-marquez">2018-10-28 백년의 고독, 가브리엘 가르시아 마르케</a></li><li><a href="2019/08/31/supergap-by-kwon">2019-08-31 초격차, 권오현</a></li><li><a href="2019/12/06/lean-customer-development-by-cindy-alvarez">2019-12-06 린 고객 개발, 신디 앨버레즈</a></li><li><a href="2019/12/12/dont-make-me-think-by-steve-krug">2019-12-12 (사용자를) 생각하게 하지마!, 스티브 크룩</a></li><li><a href="2019/12/18/platform-revoultion-by-alstyne-choudary-parker">2019-12-18 플랫폼 레볼루션, 마셜 밴 앨스타인, 상지트 폴 초더리, 제프리 파커</a></li><li><a href="2020/01/03/decided-future-by-cho">2020-01-03 2020-2040 베트남의 정해진 미래, 조영태, 쩐 밍 뚜언, 응우옌 쑤언</a></li><li><a href="2020/03/14/descent-by-cho">2020-03-14 세습 중산층 사회, 조귀동</a></li><li><a href="2020/04/01/a-hero-of-our-time-by-mikhail-lermontov">2020-04-01 우리 시대의 영웅, 미하일 레르몬토프</a></li></ul>
+    </article>
+    <footer>
+      Styled by
+      <a href="https://github.com/markdowncss/modest/blob/master/css/modest.css"
+        >Modest</a
+      >
+    </footer>
+  </body>
 </html>

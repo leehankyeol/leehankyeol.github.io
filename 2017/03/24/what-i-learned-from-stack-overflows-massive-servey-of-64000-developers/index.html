@@ -1,0 +1,276 @@
+<html>
+  <head>
+    <title>
+      2017 스택오버플로우 설문조사 결과 요약 :: 이한결 블로그
+    </title>
+    <style>
+      /* https://github.com/markdowncss/modest/blob/master/css/modest.css */
+      @media print {
+        *,
+        *:before,
+        *:after {
+          background: transparent !important;
+          color: #000 !important;
+          box-shadow: none !important;
+          text-shadow: none !important;
+        }
+
+        a,
+        a:visited {
+          text-decoration: underline;
+        }
+
+        a[href]:after {
+          content: ' (' attr(href) ')';
+        }
+
+        abbr[title]:after {
+          content: ' (' attr(title) ')';
+        }
+
+        a[href^='#']:after,
+        a[href^='javascript:']:after {
+          content: '';
+        }
+
+        pre,
+        blockquote {
+          border: 1px solid #999;
+          page-break-inside: avoid;
+        }
+
+        thead {
+          display: table-header-group;
+        }
+
+        tr,
+        img {
+          page-break-inside: avoid;
+        }
+
+        img {
+          max-width: 100% !important;
+        }
+
+        p,
+        h2,
+        h3 {
+          orphans: 3;
+          widows: 3;
+        }
+
+        h2,
+        h3 {
+          page-break-after: avoid;
+        }
+      }
+
+      pre,
+      code {
+        font-family: Menlo, Monaco, 'Courier New', monospace;
+      }
+
+      pre {
+        padding: 0.5rem;
+        line-height: 1.25;
+        overflow-x: scroll;
+      }
+
+      a,
+      a:visited {
+        color: #3498db;
+      }
+
+      a:hover,
+      a:focus,
+      a:active {
+        color: #2980b9;
+      }
+
+      .modest-no-decoration {
+        text-decoration: none;
+      }
+
+      html {
+        font-size: 12px;
+      }
+
+      @media screen and (min-width: 32rem) and (max-width: 48rem) {
+        html {
+          font-size: 15px;
+        }
+      }
+
+      @media screen and (min-width: 48rem) {
+        html {
+          font-size: 16px;
+        }
+      }
+
+      body {
+        line-height: 1.85;
+      }
+
+      p,
+      .modest-p {
+        font-size: 1rem;
+        margin-bottom: 1.3rem;
+      }
+
+      h1,
+      .modest-h1,
+      h2,
+      .modest-h2,
+      h3,
+      .modest-h3,
+      h4,
+      .modest-h4 {
+        margin: 1.414rem 0 0.5rem;
+        font-weight: inherit;
+        line-height: 1.42;
+      }
+
+      h1,
+      .modest-h1 {
+        margin-top: 0;
+        font-size: 3.998rem;
+      }
+
+      h2,
+      .modest-h2 {
+        font-size: 2.827rem;
+      }
+
+      h3,
+      .modest-h3 {
+        font-size: 1.999rem;
+      }
+
+      h4,
+      .modest-h4 {
+        font-size: 1.414rem;
+      }
+
+      h5,
+      .modest-h5 {
+        font-size: 1.121rem;
+      }
+
+      h6,
+      .modest-h6 {
+        font-size: 0.88rem;
+      }
+
+      small,
+      .modest-small {
+        font-size: 0.707em;
+      }
+
+      /* https://github.com/mrmrs/fluidity */
+
+      img,
+      canvas,
+      iframe,
+      video,
+      svg,
+      select,
+      textarea {
+        max-width: 100%;
+      }
+
+      @import url(
+        http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,
+        300italic,
+        700
+      );
+
+      @import url(http://fonts.googleapis.com/css?family=Arimo:700, 700italic);
+
+      html {
+        font-size: 18px;
+        max-width: 100%;
+      }
+
+      body {
+        color: #444;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+        margin: 0 auto;
+        max-width: 48rem;
+        line-height: 1.45;
+        padding: 0.25rem;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Arimo, Helvetica, sans-serif;
+      }
+
+      h1,
+      h2,
+      h3 {
+        border-bottom: 2px solid #fafafa;
+        margin-bottom: 1.15rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+      }
+
+      blockquote {
+        border-left: 8px solid #fafafa;
+        padding: 1rem;
+      }
+
+      pre,
+      code {
+        background-color: #fafafa;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>
+        이한결 블로그
+        <a href="http://leehankyeol.me">✍️</a>
+        <a href="https://github.com/leehankyeol">💻</a>
+        <a href="https://www.instagram.com/leehankyeol.me">📷</a>
+        <a href="https://www.facebook.com/lee.hankyeol">🍻</a>
+      </h2>
+    </header>
+    <article>
+      <h1>2017 스택오버플로우 설문조사 결과 요약</h1>
+<p>2017 스택오버플로우 설문조사 결과가 발표되었고 <a href="https://medium.freecodecamp.com/73-of-programmers-are-web-developers-and-other-insights-from-stack-overflows-massive-2017-survey-89a13b11e370">이 글은 그 결과를 십수 문장으로 압축한 결과물</a>이다. 자세한 그래프는 원문을 참고하면 되고 아래는 글쓴이가 각 항목에 달아놓은 헤드라인을 우리말로 옮긴 것이다. 영어로 developer로 표현한 것은 개발자로, programmer로 표현한 것은 프로그래머로 번역했다. 괄호 안의 문장은 내가 고른 특이사항이다.</p>
+<ol>
+<li>대다수의 개발자들이 스스로를 &quot;웹 개발자&quot;라고 생각한다.</li>
+<li>그 웹 개발자들은 스스로를 &quot;풀 스택 개발자&quot;라고 생각한다.</li>
+<li>가장 많은 프로그래머들이 사용하는 언어는 자바스크립트다. (* 다중 선택이 가능했고 2위는 SQL, 3위는 Java, 4위 C#, 5위 파이선.)</li>
+<li>개발자들이 일하는 분야는 대단히 다양해졌으며 대부분의 분야가 전통적으로 &quot;테크&quot;라고 부르지 않던 것들이다.</li>
+<li>대부분이 500명보다 적은 규모의 회사에 다닌다.</li>
+<li>스타트업에 다니는 사람은 1/5가 채 되지 않는다.</li>
+<li>대부분이 풀타임 근무를 한다.</li>
+<li>2/3 정도는 이미 알던 사람을 통해, 또는 전문 리쿠르터를 통해 일자리를 구했다.</li>
+<li>전문 분야마다 조금의 편차는 있지만 개발자들은 돈을 잘 번다. (* 그래픽 디자이너가 연봉 4만 달러선으로 제일 낮았고 데브옵스 종사자가 약 6만 달러의 연봉으로 제일 높음.)</li>
+<li>만약 미국에서 일한다면 개발자들은 돈을 더 많이 번다. (* 그래픽 디자이너가 연봉 7만 달러, 머신러닝 전문가가 10만8천 달러.)</li>
+<li>따라서, 상당수의 개발자들이 실제 받아야 할 것보다 적은 연봉을 받는다고 생각한다.</li>
+<li>2/3 정도가 한 달에 적어도 며칠은 재택 근무를 한다.</li>
+<li>일할 때는 음악을 듣는 것을 선호한다. (* 59.6%의 응답자.)</li>
+<li>경력 5년 이하가 전체의 30%. (* 반면 20년 이상 종사한 사람의 비율은 17.2%로 높은 편.)</li>
+<li>상당수가 대학 학위를 가졌지만 거의 1/4에 달하는 개발자는 4년제 학위를 수료하지 않았다. (* 4년제 학위 수료는 어떤 이유에서든 대학을 그만둔 사람을 고려한 단어 선택.)</li>
+<li>대학 학위가 있는 사람의 전공은 80%가 테크 관련이다.</li>
+<li>그럼에도 불구하고 절반에 조금 못 미치는 개발자들만이 본인들의 대학 교육이 “중요하다”, 또는 &quot;매우 중요하다&quot;라고 답했다.</li>
+<li>2016년에는 남자 비율이 93%인 반면 2017년 결과의 남자 비율은 88.6%다.</li>
+<li>100명 중 1명은 시각장애인이고 200명 중 1명은 청각장애인이다.</li>
+</ol>
+
+    </article>
+    <footer>
+      Styled by
+      <a href="https://github.com/markdowncss/modest/blob/master/css/modest.css"
+        >Modest</a
+      >
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,275 @@
+<html>
+  <head>
+    <title>
+      (사용자를) 생각하게 하지마!, 스티브 크룩 :: 이한결 블로그
+    </title>
+    <style>
+      /* https://github.com/markdowncss/modest/blob/master/css/modest.css */
+      @media print {
+        *,
+        *:before,
+        *:after {
+          background: transparent !important;
+          color: #000 !important;
+          box-shadow: none !important;
+          text-shadow: none !important;
+        }
+
+        a,
+        a:visited {
+          text-decoration: underline;
+        }
+
+        a[href]:after {
+          content: ' (' attr(href) ')';
+        }
+
+        abbr[title]:after {
+          content: ' (' attr(title) ')';
+        }
+
+        a[href^='#']:after,
+        a[href^='javascript:']:after {
+          content: '';
+        }
+
+        pre,
+        blockquote {
+          border: 1px solid #999;
+          page-break-inside: avoid;
+        }
+
+        thead {
+          display: table-header-group;
+        }
+
+        tr,
+        img {
+          page-break-inside: avoid;
+        }
+
+        img {
+          max-width: 100% !important;
+        }
+
+        p,
+        h2,
+        h3 {
+          orphans: 3;
+          widows: 3;
+        }
+
+        h2,
+        h3 {
+          page-break-after: avoid;
+        }
+      }
+
+      pre,
+      code {
+        font-family: Menlo, Monaco, 'Courier New', monospace;
+      }
+
+      pre {
+        padding: 0.5rem;
+        line-height: 1.25;
+        overflow-x: scroll;
+      }
+
+      a,
+      a:visited {
+        color: #3498db;
+      }
+
+      a:hover,
+      a:focus,
+      a:active {
+        color: #2980b9;
+      }
+
+      .modest-no-decoration {
+        text-decoration: none;
+      }
+
+      html {
+        font-size: 12px;
+      }
+
+      @media screen and (min-width: 32rem) and (max-width: 48rem) {
+        html {
+          font-size: 15px;
+        }
+      }
+
+      @media screen and (min-width: 48rem) {
+        html {
+          font-size: 16px;
+        }
+      }
+
+      body {
+        line-height: 1.85;
+      }
+
+      p,
+      .modest-p {
+        font-size: 1rem;
+        margin-bottom: 1.3rem;
+      }
+
+      h1,
+      .modest-h1,
+      h2,
+      .modest-h2,
+      h3,
+      .modest-h3,
+      h4,
+      .modest-h4 {
+        margin: 1.414rem 0 0.5rem;
+        font-weight: inherit;
+        line-height: 1.42;
+      }
+
+      h1,
+      .modest-h1 {
+        margin-top: 0;
+        font-size: 3.998rem;
+      }
+
+      h2,
+      .modest-h2 {
+        font-size: 2.827rem;
+      }
+
+      h3,
+      .modest-h3 {
+        font-size: 1.999rem;
+      }
+
+      h4,
+      .modest-h4 {
+        font-size: 1.414rem;
+      }
+
+      h5,
+      .modest-h5 {
+        font-size: 1.121rem;
+      }
+
+      h6,
+      .modest-h6 {
+        font-size: 0.88rem;
+      }
+
+      small,
+      .modest-small {
+        font-size: 0.707em;
+      }
+
+      /* https://github.com/mrmrs/fluidity */
+
+      img,
+      canvas,
+      iframe,
+      video,
+      svg,
+      select,
+      textarea {
+        max-width: 100%;
+      }
+
+      @import url(
+        http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,
+        300italic,
+        700
+      );
+
+      @import url(http://fonts.googleapis.com/css?family=Arimo:700, 700italic);
+
+      html {
+        font-size: 18px;
+        max-width: 100%;
+      }
+
+      body {
+        color: #444;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+        margin: 0 auto;
+        max-width: 48rem;
+        line-height: 1.45;
+        padding: 0.25rem;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Arimo, Helvetica, sans-serif;
+      }
+
+      h1,
+      h2,
+      h3 {
+        border-bottom: 2px solid #fafafa;
+        margin-bottom: 1.15rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+      }
+
+      blockquote {
+        border-left: 8px solid #fafafa;
+        padding: 1rem;
+      }
+
+      pre,
+      code {
+        background-color: #fafafa;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>
+        이한결 블로그
+        <a href="http://leehankyeol.me">✍️</a>
+        <a href="https://github.com/leehankyeol">💻</a>
+        <a href="https://www.instagram.com/leehankyeol.me">📷</a>
+        <a href="https://www.facebook.com/lee.hankyeol">🍻</a>
+      </h2>
+    </header>
+    <article>
+      <h1>(사용자를) 생각하게 하지마!, 스티브 크룩</h1>
+<blockquote>
+<h3>'평균 사용자’라는 신화</h3>
+<p>웹 디자인 회의는 웹 사용자들이 우리와 비슷하다는 믿음 때문에 교착 상태에 빠지곤 한다. 하지만 이러한 믿음 뒤에는 더 심각한 문제가 도사리고 있다. 많은 웹 사용자가 어떠하리라는 근거 없는 확신 말이다.</p>
+<p>개인적, 직업적 의견의 충돌이 정체기에 들어서면 대화는 보통 사용자 <em>대부분</em>이 무엇을 좋아하는지 싫어하는지, 즉 평균 웹 사용자가 정말 좋아하는 것이 무엇인지 알아내는 방향으로 흘러간다.
+하지만 진짜 문제는 평균 사용자는 존재하지 않는다는 데 있다.</p>
+</blockquote>
+<blockquote>
+<h3>일반적으로 발생하는 문제들</h3>
+<p>가장 흔하게 발생하는 문제 몇 가지를 소개하겠다.</p>
+<ul>
+<li><strong>사용자가 콘셉트를 이해하지 못한다.</strong> 이유야 어쨌든 그냥 이해하지 못하는 것이다. 사이트나 페이지를 보더라도 그 사이트에서 무엇을 할 수 있을지 모르거나 혹은 그들이 할 수 있다고 깨달은 내용이 착각에 지나지 않는 경우다.</li>
+<li><strong>사용자가 찾는 단어가 거기에 없다.</strong> 사용자들이 훑어보며 찾을 단어를 틀리게 예상했거나 어떤 사물을 묘사하기 위해 여러분이 사용하는 단어와 사용자가 사용하는 단어가 다른 경우다.</li>
+<li><strong>너무 많은 내용이 들어 있다.</strong> 사용자가 찾는 내용이 페이지에 있긴 하지만 눈에 띄지 않는다. 이 경우에는 페이지 전체 소음 수준을 낮추거나 원하는 항목이 눈에 띄게 해서 시각적 계층구조상 상위로 가도록 해야 한다.</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>새로운 문제를 더하려는 충동을 자제하라.</strong> 평가에서 사용자가 이해하지 못하는 내용이 있다는 사실을 알게 되면 설명이나 안내처럼 무언가를 일단 더하려고 한다. 하지만 무언가를 더해서 주의를 흩뜨리는 것보다 의미를 흐리고 있는 무언가를 뺐을 때 문제가 해결되는 경우가 많다.</li>
+<li><strong>’새로운 기능’에 대한 요청은 가려서 들어라.</strong> &quot;이 사이트에 이런 내용도 있으면 더 좋을 것 같아요.&quot;라며 새로운 기능을 제안하는 참가자들도 간혹 있다. 하지만 마지막 심층 질문 과정에서 본인이 제안한 기능의 작동방법에 대한 의견을 물으면 “근데 지금 생각해보니까 별로 사용하게 될 것 같지 않네요.” 같이 답하는 경우가 다반사다. 참가자들은 디자이너가 아니다. 물론 가끔 훌륭한 아이디어를 내는 참가자들도 있다. '내가 왜 그 생각을 못했지?!'라는 생각이 반사적으로 든다면 좋은 아이디어다.</li>
+</ul>
+</blockquote>
+
+    </article>
+    <footer>
+      Styled by
+      <a href="https://github.com/markdowncss/modest/blob/master/css/modest.css"
+        >Modest</a
+      >
+    </footer>
+  </body>
+</html>

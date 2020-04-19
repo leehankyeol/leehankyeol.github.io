@@ -1,0 +1,271 @@
+<html>
+  <head>
+    <title>
+      오늘의 전혀 훌륭하지 않은 PHP 상식 :: 이한결 블로그
+    </title>
+    <style>
+      /* https://github.com/markdowncss/modest/blob/master/css/modest.css */
+      @media print {
+        *,
+        *:before,
+        *:after {
+          background: transparent !important;
+          color: #000 !important;
+          box-shadow: none !important;
+          text-shadow: none !important;
+        }
+
+        a,
+        a:visited {
+          text-decoration: underline;
+        }
+
+        a[href]:after {
+          content: ' (' attr(href) ')';
+        }
+
+        abbr[title]:after {
+          content: ' (' attr(title) ')';
+        }
+
+        a[href^='#']:after,
+        a[href^='javascript:']:after {
+          content: '';
+        }
+
+        pre,
+        blockquote {
+          border: 1px solid #999;
+          page-break-inside: avoid;
+        }
+
+        thead {
+          display: table-header-group;
+        }
+
+        tr,
+        img {
+          page-break-inside: avoid;
+        }
+
+        img {
+          max-width: 100% !important;
+        }
+
+        p,
+        h2,
+        h3 {
+          orphans: 3;
+          widows: 3;
+        }
+
+        h2,
+        h3 {
+          page-break-after: avoid;
+        }
+      }
+
+      pre,
+      code {
+        font-family: Menlo, Monaco, 'Courier New', monospace;
+      }
+
+      pre {
+        padding: 0.5rem;
+        line-height: 1.25;
+        overflow-x: scroll;
+      }
+
+      a,
+      a:visited {
+        color: #3498db;
+      }
+
+      a:hover,
+      a:focus,
+      a:active {
+        color: #2980b9;
+      }
+
+      .modest-no-decoration {
+        text-decoration: none;
+      }
+
+      html {
+        font-size: 12px;
+      }
+
+      @media screen and (min-width: 32rem) and (max-width: 48rem) {
+        html {
+          font-size: 15px;
+        }
+      }
+
+      @media screen and (min-width: 48rem) {
+        html {
+          font-size: 16px;
+        }
+      }
+
+      body {
+        line-height: 1.85;
+      }
+
+      p,
+      .modest-p {
+        font-size: 1rem;
+        margin-bottom: 1.3rem;
+      }
+
+      h1,
+      .modest-h1,
+      h2,
+      .modest-h2,
+      h3,
+      .modest-h3,
+      h4,
+      .modest-h4 {
+        margin: 1.414rem 0 0.5rem;
+        font-weight: inherit;
+        line-height: 1.42;
+      }
+
+      h1,
+      .modest-h1 {
+        margin-top: 0;
+        font-size: 3.998rem;
+      }
+
+      h2,
+      .modest-h2 {
+        font-size: 2.827rem;
+      }
+
+      h3,
+      .modest-h3 {
+        font-size: 1.999rem;
+      }
+
+      h4,
+      .modest-h4 {
+        font-size: 1.414rem;
+      }
+
+      h5,
+      .modest-h5 {
+        font-size: 1.121rem;
+      }
+
+      h6,
+      .modest-h6 {
+        font-size: 0.88rem;
+      }
+
+      small,
+      .modest-small {
+        font-size: 0.707em;
+      }
+
+      /* https://github.com/mrmrs/fluidity */
+
+      img,
+      canvas,
+      iframe,
+      video,
+      svg,
+      select,
+      textarea {
+        max-width: 100%;
+      }
+
+      @import url(
+        http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,
+        300italic,
+        700
+      );
+
+      @import url(http://fonts.googleapis.com/css?family=Arimo:700, 700italic);
+
+      html {
+        font-size: 18px;
+        max-width: 100%;
+      }
+
+      body {
+        color: #444;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+        margin: 0 auto;
+        max-width: 48rem;
+        line-height: 1.45;
+        padding: 0.25rem;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Arimo, Helvetica, sans-serif;
+      }
+
+      h1,
+      h2,
+      h3 {
+        border-bottom: 2px solid #fafafa;
+        margin-bottom: 1.15rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+      }
+
+      blockquote {
+        border-left: 8px solid #fafafa;
+        padding: 1rem;
+      }
+
+      pre,
+      code {
+        background-color: #fafafa;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>
+        이한결 블로그
+        <a href="http://leehankyeol.me">✍️</a>
+        <a href="https://github.com/leehankyeol">💻</a>
+        <a href="https://www.instagram.com/leehankyeol.me">📷</a>
+        <a href="https://www.facebook.com/lee.hankyeol">🍻</a>
+      </h2>
+    </header>
+    <article>
+      <h1>오늘의 전혀 훌륭하지 않은 PHP 상식</h1>
+<ol>
+<li>
+<p>같은 데이터베이스를 기반으로 다른 두 개의 API가 구축되어 있는 회사 서비스가 있다. 내가 만든 API는 일종의 관리 툴에 쓰이는 것으로, 다른 관리자나 일반 사용자를 추가, 삭제하는 기능이 있다. 내가 회사에 오기 전부터 구축되어 있던 API는 일반 사용자들이 쓰는 API다. BCrypt로 비밀번호를 암호화하고 있다고 하길래 내가 새롭게 만들기 시작한 API에서도 BCrypt 방식을 사용했다. 여태까지 별 문제가 없는 줄 알았는데 언젠가부터 관리 툴에서 사용자를 만들고 다른 API를 통해 로그인을 시도하면 비밀번호가 잘못되었다는 에러가 발생한다는 리포트가 들어왔다.</p>
+</li>
+<li>
+<p>코드상 문제는 없어보여서 DB를 열어봤다. 한 눈에 대단한 문제점이 보이지 않는 가운데 암호화된 비밀번호 문자열에서 특이한 사항이 보였다. 기존 API를 통해 만들어진 암호화 문자열이 $2a$로 시작하는 반면, 내가 만든 API의 암호화 문자열은 $2y$로 시작하는 것이 아닌가. 검색을 해봤다.</p>
+</li>
+<li>
+<p><a href="https://security.stackexchange.com/questions/20541/insecure-versions-of-crypt-hashes">스택익스체인지 보안 관련 질문 스레드</a>를 찾았다. 정리하면 이런 이야기다. PHP에서 BCrypt를 구현한 crypt_blowfish라는 패키지가 있다. 해당 패키지에서 아스키 코드가 아닌 문자열로 해시를 했을 때 잘못된 결과를 뱉어내는 버그가 발견되었고 2011년 6월에 버그를 수정했다고 한다. 여기까지는 일반적이다. 하나 일반적이지 않은 것은, 그렇게 버그를 수정한 crypt_blowfish 패키지는 해당 버그를 수정했다는 의미에서 기존 $2a$로 시작하는 암호화 문자열을 제멋대로(?) $2y$로 시작하는 형식으로 바꾸자고 제안했다는 것이다. 당연하게도 그 제안은 OpenBSD를 포함, 그 누구도 받아들이지 않았고 오로지 PHP의 crypt_blowfish 패키지만 사용하게 되었다고 한다. 다른 BCrypt 관련 라이브러리, 패키지가 $2y$로 시작하는 암호화 문자열을 제대로 매치하지 못하는 건 당연한 수순.</p>
+</li>
+<li>
+<p>암호화 문자열의 시작 부분이 알고리즘 자체에 영향을 미치는 부분은 아니기 때문에 $2y$ 부분을 $2a$로 고쳐주기만 하면 해결되는 문제긴 하다. PHP의 정규식 치환을 사용한 코드로 바꿔주니 제대로 동작하는 것을 확인할 수 있었다. 라라벨의 해시 패키지는 그나마 똑똑한(?) 편이라 $2a$ 버전이든, $2y$ 버전이든 문제없이 해시값을 매치해주는 것 같다.</p>
+</li>
+<li>
+<p>하여튼 PHP 너모 무시무시하고 위험한 언어다. 새로 만들게 될 쇼핑몰 API부터 나는 node.js로 완전히 갈아탈 것이다.</p>
+</li>
+</ol>
+
+    </article>
+    <footer>
+      Styled by
+      <a href="https://github.com/markdowncss/modest/blob/master/css/modest.css"
+        >Modest</a
+      >
+    </footer>
+  </body>
+</html>
