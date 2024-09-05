@@ -1,0 +1,258 @@
+<html>
+  <head>
+    <title>
+      코비 브라이언트 :: 이한결 블로그
+    </title>
+    <style>
+      /* https://github.com/markdowncss/modest/blob/master/css/modest.css */
+      @media print {
+        *,
+        *:before,
+        *:after {
+          background: transparent !important;
+          color: #000 !important;
+          box-shadow: none !important;
+          text-shadow: none !important;
+        }
+
+        a,
+        a:visited {
+          text-decoration: underline;
+        }
+
+        a[href]:after {
+          content: ' (' attr(href) ')';
+        }
+
+        abbr[title]:after {
+          content: ' (' attr(title) ')';
+        }
+
+        a[href^='#']:after,
+        a[href^='javascript:']:after {
+          content: '';
+        }
+
+        pre,
+        blockquote {
+          border: 1px solid #999;
+          page-break-inside: avoid;
+        }
+
+        thead {
+          display: table-header-group;
+        }
+
+        tr,
+        img {
+          page-break-inside: avoid;
+        }
+
+        img {
+          max-width: 100% !important;
+        }
+
+        p,
+        h2,
+        h3 {
+          orphans: 3;
+          widows: 3;
+        }
+
+        h2,
+        h3 {
+          page-break-after: avoid;
+        }
+      }
+
+      pre,
+      code {
+        font-family: Menlo, Monaco, 'Courier New', monospace;
+      }
+
+      pre {
+        padding: 0.5rem;
+        line-height: 1.25;
+        overflow-x: scroll;
+      }
+
+      a,
+      a:visited {
+        color: #3498db;
+      }
+
+      a:hover,
+      a:focus,
+      a:active {
+        color: #2980b9;
+      }
+
+      .modest-no-decoration {
+        text-decoration: none;
+      }
+
+      html {
+        font-size: 12px;
+      }
+
+      @media screen and (min-width: 32rem) and (max-width: 48rem) {
+        html {
+          font-size: 15px;
+        }
+      }
+
+      @media screen and (min-width: 48rem) {
+        html {
+          font-size: 16px;
+        }
+      }
+
+      body {
+        line-height: 1.85;
+      }
+
+      p,
+      .modest-p {
+        font-size: 1rem;
+        margin-bottom: 1.3rem;
+      }
+
+      h1,
+      .modest-h1,
+      h2,
+      .modest-h2,
+      h3,
+      .modest-h3,
+      h4,
+      .modest-h4 {
+        margin: 1.414rem 0 0.5rem;
+        font-weight: inherit;
+        line-height: 1.42;
+      }
+
+      h1,
+      .modest-h1 {
+        margin-top: 0;
+        font-size: 3.998rem;
+      }
+
+      h2,
+      .modest-h2 {
+        font-size: 2.827rem;
+      }
+
+      h3,
+      .modest-h3 {
+        font-size: 1.999rem;
+      }
+
+      h4,
+      .modest-h4 {
+        font-size: 1.414rem;
+      }
+
+      h5,
+      .modest-h5 {
+        font-size: 1.121rem;
+      }
+
+      h6,
+      .modest-h6 {
+        font-size: 0.88rem;
+      }
+
+      small,
+      .modest-small {
+        font-size: 0.707em;
+      }
+
+      /* https://github.com/mrmrs/fluidity */
+
+      img,
+      canvas,
+      iframe,
+      video,
+      svg,
+      select,
+      textarea {
+        max-width: 100%;
+      }
+
+      @import url(
+        http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,
+        300italic,
+        700
+      );
+
+      @import url(http://fonts.googleapis.com/css?family=Arimo:700, 700italic);
+
+      html {
+        font-size: 18px;
+        max-width: 100%;
+      }
+
+      body {
+        color: #444;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+        margin: 0 auto;
+        max-width: 48rem;
+        line-height: 1.45;
+        padding: 0.25rem;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Arimo, Helvetica, sans-serif;
+      }
+
+      h1,
+      h2,
+      h3 {
+        border-bottom: 2px solid #fafafa;
+        margin-bottom: 1.15rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+      }
+
+      blockquote {
+        border-left: 8px solid #fafafa;
+        padding: 1rem;
+      }
+
+      pre,
+      code {
+        background-color: #fafafa;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>
+        이한결 블로그
+        <a href="http://leehankyeol.me">✍️</a>
+        <a href="https://github.com/leehankyeol">💻</a>
+        <a href="https://www.instagram.com/leehankyeol.me">📷</a>
+        <a href="https://www.facebook.com/lee.hankyeol">🍻</a>
+      </h2>
+    </header>
+    <article>
+      <h1>코비 브라이언트</h1>
+<p>블랙 맘바가 사고로 세상을 떴다는 황망한 소식을 접한 것은 지난 1월 도쿄에서 나리타 공항으로 향하는 새벽 열차에서였다. 가짜 뉴스가 난무하는 세상에서 한 번에 믿기 어려운 소식이었지만 “공신력을 갖춘” 매체들의 보도를 보며 한 시대를 풍미한 스포츠 영웅의 죽음을 기렸다. 당시 시각이 한국 시간대 기준으로 너무 일렀기에 트위터에서야 여러 사람들의 반응을 볼 수 있었다. 개중에 눈에 띄는 트윗이 있었다. 소싯적부터 팔로하던 에반 레이첼 우드의 트윗이었다.</p>
+<p>“What has happened is tragic. I am heartbroken for Kobe’s family. He was a sports hero. He was also a rapist. And all of these truths can exist simultaneously.”</p>
+<p>덕분에 금시초문이었던 이야기를 알게 되었다. 언제나 그래왔듯 그럭저럭 넘어가진 사건이었다. 그리고 저 지극히 합리적이나 문제적이라고 표현되는 트윗에 대한 반응을 봤다. 딱히 예상에서 빗나가는 지점은 없었다. 언제나 그래왔듯 많은 사람들의 인식은 딱 그 자리에 머물러 있었고 그 인식은 이 세상이 망자를 기억하는 방식에 매우 명확하게 반영되었다. 그 편향된 방식이 이 사회에 줄 영향을 생각해보면 여전히 고개가 저어진다.</p>
+<p>퇴근하고 술을 한잔 걸치고 들어오니 저 날의 생각을 떠오르게 하는 일이 있었다. 마지막 문장에 명복을 빈다고 썼던 것을 자고 일어나 고쳐쓴다.</p>
+
+    </article>
+    <footer>
+      Styled by
+      <a href="https://github.com/markdowncss/modest/blob/master/css/modest.css"
+        >Modest</a
+      >
+    </footer>
+  </body>
+</html>
